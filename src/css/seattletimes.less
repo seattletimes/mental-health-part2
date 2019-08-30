@@ -1,0 +1,383 @@
+@import "values";
+@import "flexbox";
+
+//defensive coding
+* {
+  //border-box, you're the best
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+
+  //Safari, you're the worst
+  -webkit-tap-highlight-color: transparent;
+}
+
+//elements
+header {
+  padding: 20px 20px 0px 20px;
+  margin: 20px auto;
+  text-align: center;
+
+  @media @mobile {
+    margin-bottom: 0;
+  }
+}
+
+body {
+  color: @df-off-black;
+  font-family: @df-serif;
+  font-size: @df-text-base;
+  line-height: @df-line-base;
+  padding: 0;
+  margin: 0;
+  //remove 300ms click delay in Safari, AKA still the worst
+  touch-action: manipulation;
+
+  @media @mobile {
+    font-size: @df-text-base/1.2;
+    line-height: @df-line-base/1.1;
+  }
+}
+
+main {
+  display: block;
+
+  &.interactive {
+    padding: 20px 10px;
+    margin: 20px auto;
+    border-top: 1px solid @df-light-gray;
+    border-bottom: 1px solid @df-light-gray;
+    font-family: @df-sans;
+  }
+}
+
+a {
+  color: @df-blue;
+  text-decoration: none;
+
+  &:visited {
+    color: @df-middle-gray;
+  }
+
+  &:hover, &:focus {
+    color: @df-navy;
+  }
+
+  img {
+    border: none;
+  }
+}
+
+img, video, embed, object, iframe {
+  max-width: 100%;
+  width: 100%
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: @df-off-black;
+  margin: @df-line-base 0 (@df-line-base/2) 0;
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 30 / 28;
+  letter-spacing: -0.5px;
+  margin-bottom: 0;
+  text-align: center;
+
+  @media @tablet {
+    font-size: 22px;
+    line-height: 46 / 42;
+    letter-spacing: -1px;
+    margin-top: 0;
+  }
+}
+h2 {
+  font-size: 60px;
+  line-height: 65px;
+  text-align: center;
+  letter-spacing: -1px;
+
+  @media @mobile {
+    font-size: 30px;
+    line-height: 23 / 21;
+    letter-spacing: -1px;
+  }
+}
+h3 {
+  font-size: 22px;
+  line-height: 23 / 22;
+}
+h4 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 24 / 16;
+  margin: @df-line-base/2 0 0 0;
+  margin-top: 0;
+}
+//quote style
+h5 {
+  position: absolute;
+  z-index: 2;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  max-width: 800px;
+  margin-top: -10rem;
+  padding-left: 6%;
+
+  @media @tablet {
+    font-size: 18px;
+    margin-top: -10rem;
+    padding-left: 2%;
+  }
+
+  @media @mobile {
+    font-size: 16px;
+    margin-top: -9rem;
+    padding: 5px;
+    line-height: 1.2;
+  }
+}
+
+h6 {
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 24 / 16;
+  margin-bottom: 0;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid @df-light-gray;
+  max-width: 400px;
+  text-align: center;
+  margin: auto;
+}
+
+//common style elements
+
+.byline {
+  font-size: 18px;
+  margin: 24px auto;
+
+  @media @tablet {
+    padding: 0 16px;
+    padding-top: 40px;
+  }
+
+  @media @mobile {
+    padding: 0;
+  }
+
+  .staff {
+    font-style: italic;
+    font-size: 16px;
+  }
+
+  .date {
+    font-size: 16px;
+    font-family: @df-sans;
+    color: @df-dark-gray;
+  }
+}
+
+//header and menu
+nav.main-nav {
+  background: white;
+  border-bottom: 1px solid @df-light-gray;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, .1);
+  position: relative;
+  line-height: 1;
+  z-index: 999;
+
+  .wrapper {
+    max-width: 1020px;
+    margin: auto;
+    position: relative;
+    padding: 10px;
+
+    @media @mobile {
+      padding: 6px;
+    }
+  }
+
+  .logo {
+    display: block;
+    vertical-align: middle;
+
+    img {
+      height: 24px;
+      max-height: 100%;
+
+      @media @mobile {
+        height: 18px;
+      }
+    }
+  }
+}
+
+.ad {
+  text-align: center;
+  margin: 16px auto;
+
+  &.pending {
+    &::before {
+      display: block;
+      content: "";
+      background: @df-light-gray;
+    }
+
+    &[data-type="banner"],
+    &[data-type="bannerBottom"]{
+      max-width: 728px;
+      &::before {
+        padding-bottom: percentage(90 / 728);
+
+        @media @mobile {
+          padding-bottom: percentage(50 / 300);
+        }
+      }
+    }
+
+    &[data-type="tall"] {
+      max-width: 300px;
+      &::before {
+        padding-bottom: percentage(600 / 300);
+      }
+    }
+
+    &[data-type="square"] {
+      max-width: 300px;
+      &::before {
+        padding-bottom: percentage(250 / 300);
+      }
+    }
+  }
+}
+
+.subscribe-box {
+  padding: 0;
+
+  h2 {
+    margin: 0;
+  }
+
+  img {
+    display: inline-block;
+    padding-right: 10px;
+    height: 24px;
+
+    @media @mobile {
+      display: block;
+      margin: 24px auto;
+      padding-right: 0;
+    }
+  }
+
+  .button-box {
+    padding-top: 10px;
+    .display-flex();
+    .justify-content(center);
+    .align-items(center);
+
+    @media @mobile {
+      display: block;
+      text-align: center;
+    }
+  }
+
+  .subscribe-button {
+    display: inline-block;
+    background: @df-blue;
+    padding: 12px 15px 10px 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: .08em;
+
+    &:hover {
+      background: @df-light-gray;
+    }
+  }
+}
+
+.show-comments {
+  border: 1px solid @df-blue;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: @df-sans;
+  font-weight: bold;
+  font-size: 15px;
+  color: @df-blue;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+.thin-div {
+  border-bottom: 1px solid @df-light-gray;
+  margin-bottom: 15px;
+  font-family: @df-sans;
+  margin: auto;
+  max-width: 900px;
+}
+
+.dont-miss {
+  .display-flex;
+  .flex-wrap(wrap);
+  margin: auto;
+  margin-top: 15px;
+  max-width: 900px;
+  font-size: 17px;
+  font-family: @df-sans;
+
+  .story {
+    .flex(0 0 33%);
+
+    @media @mobile {
+      .flex(1 1 100%)
+    }
+  }
+  .padded {
+    padding: 10px;
+  }
+  img {
+    width: 100%;
+  }
+  a {
+    color: @df-dark-gray;
+    transition: color .1s linear;
+
+    &:hover {
+      color: @df-blue;
+    }
+  }
+  .small {
+    font-weight: bold;
+    font-size: 15px;
+  }
+}
+
+footer.nav-bottom {
+  background: black;
+  opacity: 0.95;
+  padding: 8px 8px 4px 8px;
+  position: relative;
+  z-index: 99;
+
+  .logo {
+    float: left;
+    margin-right: 10px;
+
+    img {
+      margin-top: 5px;
+      height: 20px;
+      width: auto;
+    }
+  }
+
+  &::after {
+    clear: both;
+    content: " ";
+    display: block;
+  }
+}

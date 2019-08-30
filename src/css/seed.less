@@ -1,0 +1,276 @@
+@import "seattletimes";
+@import "bc-preroll";
+@import "kresch";
+@import "comments";
+
+.visible-mobile {
+    display: none !important;
+  }
+  
+  @media @mobile {
+    .visible-mobile {
+      display: inline !important;
+    }
+  
+    .hidden-mobile {
+      display: none !important;
+    }
+  }
+  
+  main.content {
+    padding: 20px 16px;
+  }
+  
+  .constrained {
+  margin: auto;
+  max-width: 800px;
+  padding: 0 16px;
+  }
+
+  .indent {
+    margin: auto;
+    max-width: 700px;
+    padding: 10px 16px;
+    list-style-position: outside;
+    line-height: 1.4;
+  }
+  
+  .byline {
+    padding: 0px 16px 0px 16px;
+  }
+  
+  .caption {
+    margin: 6px auto 0;
+    max-width: 960px;
+    line-height: 1.2;
+    font-size: 14px;
+    font-style: italic;
+    font-family: @df-sans;
+    color: @df-middle-gray;
+
+    @media @mobile {
+      padding-bottom: 10px;
+    }
+  }
+  
+  .captionLeft {
+    margin: 6px auto 0;
+    max-width: 960px;
+    text-align: right;
+    line-height: 1.2;
+    font-size: 14px;
+    font-style: italic;
+    font-family: @df-sans;
+    color: @df-middle-gray;
+
+    @media @mobile {
+      padding-bottom: 10px;
+    }
+  }
+  
+  main > img {
+    display: block;
+    margin: 0 auto;
+    width: 960px;
+  }
+  
+  hr {
+      max-width: 300px;
+      width: 50%;
+      height: 2px;
+      background: #e0e0e0;
+      border: none;
+      margin: 25px auto;
+
+      @media @mobile {
+        margin: 10px auto;
+      }
+  }
+  
+  main.content {
+      em {
+          font-weight: bold;
+          font-style: normal;
+          font-size: 120%;
+      }
+      a {
+          text-decoration: underline;
+      }
+  }
+  
+  .floating > div, .floating > img {
+    float: right;
+    margin-left: 30px;
+
+  }
+  
+  .floating > div {
+    width: 350px;
+    max-width: 100%;
+
+    @media @mobile {
+      float: none;
+      margin: auto;
+      margin-block-end: 10px;
+    }
+  
+  .floating > img {
+    width: 3500px;
+    @media @mobile {
+      width: 150px;
+    }
+  }
+}
+
+  .triple {
+    margin: auto;
+    padding: 5px 16px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+
+    @media @mobile {
+      display: block;
+      padding: 0;
+      }
+
+    .image-container {
+      padding-right: 20px;
+      .flex(0 0 50%);
+
+    @media @mobile {
+      display: block;
+      padding: 0px 10px;
+      }
+    }
+  }
+
+  .quote {
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+
+    @media @mobile {
+      padding: 0;
+      height: auto;
+    }
+  }
+
+  .photo {
+    padding: 20px 0px 20px;
+
+    @media @mobile {
+      padding-bottom: 0;
+    }
+  }
+
+  .center {
+    margin: auto;
+    padding: 0px 0px 30px;
+    width: 100%;
+
+    @media @mobile {
+      padding: 10px 0px 10px;
+    }
+  }
+
+  .line {
+    max-width: 500px;
+    margin: auto;
+    padding: 5px 0px 5px 0px;
+
+    @media @mobile {
+      padding-top: 0;
+      max-width: 300px;
+    }
+  }
+
+  .top {
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+    @media @mobile {
+      padding-top: 10px;
+    }
+  }
+
+  .photoMedium {
+    max-width: 920px;
+    margin: auto;
+  }
+
+  .youtube {
+    max-width: 100%;
+    float: right;
+    width: 50%;
+    margin: 16px;
+    padding-right: 25%;
+    min-width: 400px;
+
+    @media @tablet {
+      padding-right: 0;
+      width: 60%;
+    }
+
+    @media @mobile {
+      float: clear;
+      margin: auto;
+      display: inline-block;
+      padding: 0;
+      max-width: 100%;
+    }
+  }
+
+  .resources {
+    // background-color: @df-light-gray;
+    padding: 0 20px 20px 30px;
+    border-radius: 5px;
+    border: 2px solid #e0e0e0;
+    font-size: 17px;
+    margin-bottom: 4px;
+  }
+
+  .resourcesCenter {
+    // background-color: @df-light-gray;
+    padding: 0 20px 20px 30px;
+    border-radius: 5px;
+    border: 2px solid #e0e0e0;
+    font-size: 17px;
+    margin-bottom: 4px;
+    text-align: center;
+
+    @media @mobile {
+      text-align: left;
+    }
+
+    .list {
+      text-align: left;
+      padding-left: 30%;
+
+      @media @mobile {
+       padding: 0;
+      }
+    }
+  }
+
+  .watchdog {
+    padding: 30px 0px 0px;
+    margin: auto;
+    text-align: center;
+    
+    .gray {
+      padding: 10px 0px;
+    }
+  }
+
+  .trouble {
+    font-style: italic;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    color: @df-middle-gray;
+
+    @media @mobile {
+      padding: 10px 0px 10px;
+    }
+  }

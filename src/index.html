@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta property="og:image" content="https://projects.seattletimes.com/2019/public-crisis-private-toll-part1/assets/social.jpg" />
+    <%= t.include("partials/_head.html", grunt.data.json) %>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+      <%= t.include("partials/_gtm.html") %>
+      <%= t.include("partials/_nav.html") %>
+
+    <header>
+      <iframe src="./assets/videos/2-seconds-of-silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+      <h1>PUBLIC CRISIS, PRIVATE TOLL </h1>
+      <h3>The hidden costs of the mental-health industry’s expansion</h3>
+        <div class="content line">
+          <img src="assets/line.jpg"></div>
+        <h2>How a company’s push to expand psychiatric care brought peril</h2>
+        <img src="assets/photos/photo-torgesen.jpg" alt="Photo of Torgesen" aria-describedby="photoTorgesen-caption"></a>
+        <div class="caption" id="photoTorgesen-caption"> Marjorie Erickson holds a photograph of her mother, Rosemary Torgesen, in Shoreline. (Erika Schultz / The Seattle Times)</div>
+      </div>
+    </header>
+
+    <main class="content">
+      <div class="byline constrained">
+            By <a class="name" href="https://www.seattletimes.com/author/daniel-gilbert/">Daniel Gilbert</a>
+            <div class="staff">Seattle Times staff reporter</div>
+            <div class="date">Published August 25, 2019</div>
+      </div>
+
+      <div class="constrained">
+          <%= t.renderMarkdown(archieml.text1.section1) %>
+      </div>
+
+      <div class="floating constrained">
+          <div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/MgdNjkI6qoM" frameborder="0" allow="autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
+        </a>
+        <div class="captionLeft"> (Douglas Buell / The Arlington Times)</div>
+        </div>
+      </div>
+        
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section2) %>
+      </div>
+
+      <div class="quote">
+          <img src="assets/long-quote.jpg" class="hidden-mobile" style="opacity: 0.15">
+          <img src="assets/quote.jpg" class="visible-mobile" style="opacity: 0.15">
+        <h5>“I got her in there when she was perfectly healthy. She just looked half dead right there.” – Douglas Torgesen, son of Rosemary Torgesen</h5>
+      </div>
+
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section3) %>
+      </div>
+
+      <div class="visible-mobile">
+        <hr>
+      </div>
+
+      <div class="floating constrained">
+        <div>
+          <a href="http://projects.seattletimes.com/2019/public-crisis-private-toll-prologue"> <h3>Primer: Washington's<br>mental-health care crisis</h3><img src="assets/photos/image6m.jpg" alt="Link to read the overview of mental healthcare in Washington"></a>
+        </div>
+      </div>
+
+      <div class="visible-mobile">
+        <hr>
+      </div>
+
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section4) %>
+      </div>
+
+      <div class="floating constrained">
+        <div class="resources">
+          <a href="https://www.seattletimes.com/seattle-news/resources-for-mental-health-support/"><h3>Resources for mental-health support</h3></a>
+          <li><a href="https://www.seattletimes.com/seattle-news/resources-for-mental-health-support/#one">In a crisis?</a></li>
+          <li><a href="https://www.seattletimes.com/seattle-news/resources-for-mental-health-support/#two">Need support?</a></li>
+          <li><a href="https://www.seattletimes.com/seattle-news/resources-for-mental-health-support/#three">Worried about someone you know?</a></li>
+        </div>
+      </div>
+
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section5) %>
+      </div>
+
+      <div class="quote">
+          <img src="assets/long-quote.jpg" class="hidden-mobile" style="opacity: 0.2">
+          <img src="assets/quote.jpg" class="visible-mobile" style="opacity: 0.2">   
+        <h5>Smokey Point’s own incident log showed 88 assaults, 33 discoveries of contraband and 26 employee injuries.</h5>
+      </div>
+
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section6) %>
+      </div>
+
+      <div class="floating constrained">
+        <div>
+          <img src="assets/photos/weed.jpg" alt="Nate Weed" aria-describedby="weed-caption">
+        </a>
+          <div class="caption" id="weed-caption"> Nate Weed is director of Community Health Systems at the state Department of Health. (Steve Ringman / The Seattle Times)</div>
+        </div>
+      </div>
+      
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section7) %>
+      </div>
+
+      <div class="constrained">
+          <%= t.renderMarkdown(archieml.text1.section8) %>
+      </div>
+
+      <div class="quote">
+          <img src="assets/long-quote.jpg" class="hidden-mobile" style="opacity: 0.3">
+          <img src="assets/quote.jpg" class="visible-mobile" style="opacity: 0.3">
+        <h5>“They’ve demonstrated that they don’t have a good track record of being able to care for patients safely, so we’re not going to allow them to do that.”  – Nate Weed, director of the Department of Health’s Office of Community Health Systems</h5>
+      </div>
+
+      <div class="photo">
+        <img src="assets/photos/smokey-point.jpg" alt="Smokey Point Behavioral Hospital" aria-describedby="smokeyPoint-caption">
+      </a>
+        <div class="caption" id="smokeyPoint-caption">Washington’s severe shortage of inpatient beds for psychiatric patients put pressure on state officials to add more capacity. Smokey Point Behavioral Hospital, a for-profit hospital in Marysville operated by US HealthVest, aimed to address the need. (Erika Schultz / The Seattle Times)</div>
+      </div>
+
+      <div class="content line top">
+        <img src="assets/line.jpg"></div>
+
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section9) %>
+      </div>
+
+      <div class="quote">
+          <img src="assets/long-quote.jpg" class="hidden-mobile" style="opacity: 0.4">
+          <img src="assets/quote.jpg" class="visible-mobile" style="opacity: 0.4">
+        <h5>“Our patients turn to us in crisis and we take our responsibility to provide the highest level of care in the safest of therapeutic environments with the upmost seriousness.” ­‑ Richard Kresch, CEO of US HealthVest</h5>
+      </div>
+
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section10) %>
+      </div>
+
+      <div class="content constrained floating">
+        <%= t.include("partials/_ad.html", { type: "square" }) %>
+      </div>
+      
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section11) %>
+      </div>
+      
+      <div class="center">
+        <%= t.include("_prerollVideo.html", { file: "christina_titlecard.mp4", id: "6068745696001", runtime: "3:08" }) %>
+        <div class="caption">Christina Perry was a nurse at Smokey Point Behavioral Hospital from September 2017 through May 2018. “I felt helpless working there,” she said. “I felt like I didn’t have enough resources to make sure everybody was safe.” (Erika Schultz, Gabriel Campanario & Lauren Frohne / The Seattle Times)</div>
+      </div>
+
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section12) %>
+      </div>
+
+      <div class="floating constrained">
+          <div class="resources">
+            <h6 style="padding: 10px">You can support watchdog journalism</h6>
+            Make a tax-deductible donation to <a href="https://company.seattletimes.com/investigativefund/">The Seattle Times Investigative Journalism Fund,</a> and subscribe to <a href="https://www.seattletimes.com/subscribe/signup-offers/">The Seattle Times.</a>
+          </div>
+        </div>
+
+      <div class="constrained">
+          <%= t.renderMarkdown(archieml.text1.section13) %>
+        </div>
+
+      <div class="indent">
+        <li>A suicidal patient was checked on with the same frequency as patients who were not suicidal. Six days into his stay, he was found unresponsive hanging from his bed sheets and taken to a medical hospital. Three days later, back at Smokey Point, the man made a second suicide attempt.</li><br>
+        <li>Another patient had a plan to kill herself by “banging her head as hard as she can into the wall.” She had been slamming her head into a wall, a nurse had written, but inspectors found no evidence that staff intervened to stop her.</li><br>
+        <li>A staff member threw away the catheter that a “wheelchair bound” patient used to manage a urinary condition, only for another staffer to remove it from the biohazard trash, wash it off and return it to the patient.</li><br>
+        <li>One diabetic patient had a foot ulcer and had a referral to a wound-care clinic “as soon as possible.” Instead, the wound worsened for another nine days until the patient was sent to a medical hospital.</li><br>
+        <li>An aggressive patient was found having sex with a developmentally disabled woman, hours after he was ordered to stay five feet away from all female patients. When a mental-health worker asked if the encounter was consensual, the woman said it was. “He was sent by God to have babies with me,” she said, according to state investigative findings. US HealthVest didn’t respond to whether the matter was referred to law enforcement.</li>
+      </div>
+
+      <div class="constrained">
+          <%= t.renderMarkdown(archieml.text1.section14) %>
+      </div>
+
+      <div class="content line">
+          <img src="assets/line.jpg"></div>
+
+      <div class="floating constrained top">
+        <div>
+          <img src="assets/photos/torgesen.jpg" alt="Rosemary Torgesen" aria-describedby="rosemary-caption">
+        </a>
+          <div class="caption" id="rosemary-caption">Rosemary Torgesen is seen  on Christmas Eve in 2017. Just three months later, Torgesen, who had schizophrenia, was involuntarily committed and admitted to Smokey Point Behavioral Hospital. (Courtesy of Jeffrey Torgesen)</div>
+        </div>
+      </div>
+
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section15) %>
+      </div>
+
+      <div class="quote">
+        <img src="assets/long-quote.jpg" class="hidden-mobile" style="opacity: 0.4">
+        <img src="assets/quote.jpg" class="visible-mobile" style="opacity: 0.4">
+        <h5>Almost as soon as Rosemary arrived, Smokey Point’s nursing staff recognized that they lacked the ability to care for her.</h5>
+      </div>
+
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section16) %>
+      </div>
+
+      <div class="content line top">
+        <img src="assets/line.jpg"></div>
+
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section17) %>
+      </div>
+
+      <div class="floating constrained">
+        <%= t.include("_kresch.html") %>
+      </div>
+      
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section18) %>
+      </div>
+
+      <div class="constrained photo">
+        <img src="assets/photos/reum.jpg" alt="Sarah Reum" aria-describedby="reum-caption">
+        </a>
+        <div class="caption" id="reum-caption">Sarah Reum, 22, died by  suicide Jan. 20, 2018, while she was a patient at US HealthVest’s Ridgeview Institute in Monroe, Georgia. Later that year, another patient there killed himself. In both cases, security video shows both patients, on suicide watch, were left alone for more than an hour when they were supposed to be checked every 15 minutes. (Courtesy of the Reum family)</div>
+      </div>
+
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section19) %>
+      </div>
+
+      <div class="triple">
+          <div class="image-container">
+              <p>At 5:12 p.m., a staffer enters her room, turns and runs down the hall to the nursing station, motioning for others to come.</p>
+          </div>
+          <div class="image-container">
+              <video src="assets/videos/20190710_Georgia-security1.mp4" controls></video>
+          </div>
+        </div>
+
+      <div class="triple">
+        <div class="image-container">
+            <p>A nurse and another staffer accompany her, in no apparent hurry, to Reum’s room.</p>
+        </div>
+        <div class="image-container">
+            <video src="./assets/videos/20190710_Georgia-security2.mp4" controls playsinline ></video>
+        </div>
+      </div>
+
+      <div class="triple">
+        <div class="image-container">
+            <p>More staff come running, followed by police and paramedics, but they are too late.</p>
+        </div>
+        <div class="image-container">
+            <video src="assets/videos/20190710_Georgia-security4.mp4" controls></video>
+        </div>    
+      </div>
+
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section20) %>
+      </div>
+
+      <div class="quote">
+          <img src="assets/long-quote.jpg" class="hidden-mobile" style="opacity: 0.45">
+          <img src="assets/quote.jpg" class="visible-mobile" style="opacity: 0.45">
+        <h5>Her older daughter’s first day of school was this month, but Reum “didn’t get to see it because somebody didn’t do their job,” said Reum’s mother, Stacey Jenkins.</h5>
+      </div>
+
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section21) %>
+      </div>
+
+      <div class="content line">
+          <img src="assets/line.jpg"></div>
+
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section22) %>
+      </div>
+
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section23) %>
+      </div>     
+      
+      <div class="photoMedium">
+        <img src="assets/photos/perry.jpg" alt="Christina Perry" aria-describedby="perry-caption">
+        </a>
+        <div class="caption" id="perry-caption"> Christina Perry resigned from her position as a nurse at Smokey Point. “I do not feel safe working here since there is not enough staff,” she wrote to the chief nursing officer. (Erika Schultz / The Seattle Times)</div>
+    </div>
+
+      <div class="quote">
+          <img src="assets/long-quote.jpg" class="hidden-mobile" style="opacity: 0.55">
+          <img src="assets/quote.jpg" class="visible-mobile" style="opacity: 0.55">
+        <h5>“Every day I worked at Smokey Point Behavioral Hospital, I was afraid for my life and the lives of my patients.” – Christina Perry, former Smokey Point nurse</h5>
+      </div>
+
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section24) %>
+      </div>
+
+      <div class="visible-mobile">
+        <hr>
+      </div>
+
+      <div class="floating constrained">
+        <div>
+          <a href="https://projects.seattletimes.com/2019/smokey-point-hospital-911-call/"><h3>Listen to the June 16th 911 call</h3><img src="assets/photos/911-teaser.jpg" alt="Link to listen to the 911 call from June 16th"></a>
+        </div>
+      </div>
+
+      <div class="visible-mobile">
+        <hr>
+      </div>
+
+        <div class="constrained">
+          <%= t.renderMarkdown(archieml.text1.section25) %>
+        </div>
+        
+        <div class="quote">
+          <img src="assets/long-quote.jpg" class="hidden-mobile" style="opacity: 0.6">
+          <img src="assets/quote.jpg" class="visible-mobile" style="opacity: 0.6">
+        <h5>On June 24, nursing staff found Rosemary had a bedsore. The woman who never complained said of her pain, “It’s terrible.”</h5>
+      </div>
+
+        <div class="constrained">
+          <%= t.renderMarkdown(archieml.text1.section26) %>
+        </div>
+
+        <div class="content line top">
+            <img src="assets/line.jpg"></div>
+
+        <div class="center constrained top">
+          <div>
+              <img src="assets/photos/inslee.jpg" alt="Ribbon cutting at Smokey Point Behavioral hospital" aria-describedby="inslee-caption">
+            </a>
+              <div class="caption" id="inslee-caption">In July 2017,  Gov. Jay Inslee and Tulalip Tribes Chairwoman Marie Zackuse cut the ribbon at the Smokey Point Behavioral Hospital grand opening. Since 2012, the state has approved or expanded 10 private psychiatric hospitals, nine of which are for-profit. (Kalvin Valdillez / Tulalip News)</div>
+          </div>
+        </div>
+
+        <div class="constrained">
+          <%= t.renderMarkdown(archieml.text1.section27) %>
+        </div>
+
+        <div class="quote">
+            <img src="assets/long-quote.jpg" class="hidden-mobile" style="opacity: 0.65">
+            <img src="assets/quote.jpg" class="visible-mobile" style="opacity: 0.65">
+          <h5>As the state director of Veterans Affairs helped dedicate the new unit at Smokey Point, Department of Health inspectors conducting an investigation inside the hospital found serious violations.</h5>
+        </div>
+
+        <div class="constrained">
+          <%= t.renderMarkdown(archieml.text1.section28) %>
+        </div>
+
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section29) %>
+      </div>
+
+      <div class="quote">
+          <img src="assets/long-quote.jpg" class="hidden-mobile" style="opacity: 0.7">
+          <img src="assets/quote.jpg" class="visible-mobile" style="opacity: 0.7">
+          <h5>“Governor Inslee is a strong supporter of our model,” the company wrote in a memo for regulators last August, including a link to a YouTube video of his remarks at Smokey Point’s opening.</h5>
+      </div>
+
+      <div class="content line">
+        <img src="assets/line.jpg"></div>
+      
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section30) %>
+      </div>
+
+      <div class="visible-mobile">
+        <hr>
+      </div>
+
+      <a name="timeline">
+      <div class="floating constrained">
+        <div>
+          <a href="https://projects.seattletimes.com/2019/public-crisis-private-toll-timeline/"><h3>Click to see a timeline of Rosemary Torgesen's last months</h3><img src="assets/photos/timeline2.jpg" alt="Timeline or Rosemary Torgesen's last months"></a>
+        </div>
+      </div>
+    </a>
+
+      <div class="visible-mobile">
+        <hr>
+      </div>
+    
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text1.section31) %>
+      </div>
+    
+
+      <div class="photoMedium">
+          <img src="assets/photos/torgesen-family.jpg" alt="Torgesen family" aria-describedby="torgesenFamily-caption">
+        </a>
+          <div class="caption" id="torgesenFamily-caption"> Four of Rosemary Torgesen’s seven children visit her grave in Shoreline. From left: Marjorie Erickson, Jeff Torgesen, Maurya Smith and Douglas Torgesen. (Erika Schultz / The Seattle Times)</div>
+      </div>
+
+      <div class="constrained">
+          <%= t.renderMarkdown(archieml.text1.section32) %>
+      </div>
+
+      <div class="content top">
+        <div>
+          <video src="assets/videos/20190710_Rosemary_etching.mp4" autoplay playsinline loop muted></video>
+          </a>
+          <div class="caption">Rosemary Torgesen's memorial plaque is prepared at a Shoreline cemetery. (Erika Schultz / The Seattle Times)</div>
+        </div>
+      </div>
+
+      <div class="visible-mobile">
+        <hr>
+      </div>
+
+      <%= t.include("partials/_dontMiss.html") %>
+
+      <div class="constrained top">
+        <div class="resourcesCenter">
+          <a href="https://www.seattletimes.com/seattle-news/resources-for-mental-health-support/"><h3>Resources for mental-health support</h3></a>
+          <div class="list"><li><a href="https://www.seattletimes.com/seattle-news/resources-for-mental-health-support/#one">In a crisis?</a></li>
+          <li><a href="https://www.seattletimes.com/seattle-news/resources-for-mental-health-support/#two">Need support?</a></li>
+          <li><a href="https://www.seattletimes.com/seattle-news/resources-for-mental-health-support/#three">Worried about someone you know?</a></li>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <section class="constrained">
+        <div class="content line top">
+            <img src="assets/line.jpg"></div>
+
+            <ul class="aside-text" style="padding-left:0">
+                <h4 style="text-align: center;">CREDITS</h4>
+                
+                <div class="credits" style="column-count:2;list-style-type: none">
+                    <li><strong>Reporter:</strong>  Daniel Gilbert</li>
+                    <li><strong>Project editor:</strong>  Ray Rivera</li>
+                    <li><strong>Photographer:</strong>  Erika Schultz</li>
+                    <li><strong>Photo editor:</strong>  Fred Nelson</li>
+                    <li><strong>Video editor:</strong>  Lauren Frohne</li>
+                    <li><strong>Developer and graphic artist:</strong>  Emily M. Eng</li>
+                    <li><strong>Illustrator:</strong>  Gabriel Campanario</li>
+                    <li><strong>Engagement:</strong>  Taylor Blatchford</li>
+                    <li><strong>Project coordinator:</strong>  Laura Gordon</li>
+                </div>
+            </ul>
+        </section>
+
+        <div class="center watchdog">
+          <h6>You can support watchdog journalism</h6>
+          <div class="gray">Make a tax-deductible donation to <a href="https://company.seattletimes.com/investigativefund/">The Seattle Times Investigative Journalism Fund,</a> and subscribe to <a href="https://www.seattletimes.com/subscribe/signup-offers/">The Seattle Times.</a></div>
+        </div>
+
+        
+
+    </main>
+      
+
+   
+    <%= t.include("partials/_navBottom.html") %>
+    <script src="app.js" async></script>
+    <div class="trouble">
+        <p>If you’re having trouble commenting or viewing comments, hit refresh on your browser and try again.</p>
+    </div>
+    <%= t.include("partials/_comments.html") %>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_analytics.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>
