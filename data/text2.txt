@@ -182,7 +182,7 @@ Branson made her way home in a daze. She remembers finding Danielle in her bedro
 
 :end
 INSET: DESCALSO AND TEEN DAUGHTER
-section13:
+section14:
 
 When inspectors reviewed the case months later, they cited Cascade for failing to document how staff responded to the cardiac arrest. It was a minor violation on the regulatory scale, but it was also a failure that left the hospital “unable to evaluate the effectiveness of emergency response,” inspectors wrote.
 
@@ -197,7 +197,7 @@ For Descalso’s ex-wife and mother, their sense of loss has been compounded by 
 “Maybe I should have checked into it more,” Branson said. “It’s, like, what did I miss?”
 
 :end
-section14:
+section15:
 
 # Adverse events
 
@@ -218,7 +218,7 @@ The agency publishes a list of adverse events, summarized by a few words that do
 Even if hospitals reported every event as required, this tally would leave out many near-misses, like patient escapes, as well as serious injuries that fall short of requiring surgery or loss of limb. The Times found cases of sexual abuse, patients who received medical care after suicide attempts, and employees who suffered concussions and broken bones. Among the safety incidents that apparently were not reported to the state:
 
 :end
-section15:
+section16:
 
 At Navos, a nonprofit hospital in West Seattle for patients who have been involuntarily committed, at least 17 patients escaped over three years. One patient who escaped was found unresponsive, with a blood-alcohol concentration of 0.57 — a level that can be fatal — and was taken to Harborview Medical Center where he survived, records show.
 
@@ -229,7 +229,7 @@ At BHC Fairfax’s Everett facility, which hasn’t reported any adverse events,
 At Smokey Point Behavioral Hospital, which opened in June 2017, The Times was able to identify 28 unreported assaults through law enforcement and regulatory records. But that represents only a slice of the violence occurring inside the hospital. Its own incident log recorded 88 assaults in 2018 alone, according to a state inspection report, which didn’t provide details of the incidents.
 
 :end
-section16:
+section17:
 
 Navos was acquired by Multicare Health System in 2017. After reviewing documents of two incidents provided by The Times — the escaped patient who was found unresponsive, and a nurse whose hip was broken in an assault — a Multicare spokeswoman said, “We agree that these events should have been reported to the Department of Health and we will be filing those reports.” The incidents predated the company’s acquisition.
 
@@ -239,7 +239,7 @@ Fairfax Behavioral Health, owned by hospital chain Universal Health Services, sa
 
 :end
 surveillance videos
-section17:
+section18:
 
 While some staffers in psychiatric hospitals felt there was an unwritten rule not to contact law enforcement, there was an explicit policy at Smokey Point, operated by a for-profit company in New York called US HealthVest.
 
@@ -248,7 +248,7 @@ While some staffers in psychiatric hospitals felt there was an unwritten rule no
 Beall declined to comment and Crockett didn’t respond to requests. US HealthVest’s chief executive, Richard Kresch, didn’t respond to a question about this policy but said in a statement that “Smokey Point has been and continues to be, fully compliant with all state and federal regulations.”
 
 :end
-section18:
+section19:
 
 # A cycle of violations
 
@@ -268,7 +268,7 @@ Howell, 66, owned a service station in Arlington, lived on a farm and fixed up c
 
 :end
 INSET PHOTO: HOWELL
-section19:
+section20:
 
 At Cascade, the hospital’s staff noted that Howell had at some point expressed “plans to hang himself or use a gun to die,” but he denied any current plans to kill himself. They determined he posed little risk of suicide.
 
@@ -311,7 +311,7 @@ On the day inspectors declared immediate jeopardy for the third time, an agency 
 The regulatory scrutiny was intended to force improvements at Cascade, but it didn’t protect patients from harm.
 
 :end
-section20:
+section21:
 # “I’m going to die here“
 
 On June 22, 2017, the hospital readmitted a patient so violent he had been placed on a “do not admit list” after his last stay. “Patient #1,” as he is described in an inspection report, sent another patient to an emergency room with a broken nose and wounds to his face and lip. He knocked another patient unconscious in an attack that drew a “significant amount of blood” and also required emergency medical care for the victim.
@@ -334,7 +334,7 @@ At about 3 a.m. on June 3, 2017, a 76-year-old former teacher, Carolyn Tomich, e
 
 :end
 INSET PHOTO: TOMICH
-section21:
+section22:
 
 With difficulty, Tracee Tomich loaded her mother into her truck and took her to a hospital. To her shock, her mother was diagnosed with a broken hip. Carolyn Tomich died three weeks later, with the broken hip listed as a contributing factor.
 
@@ -348,7 +348,7 @@ In May 2018, 92-year-old Jim Mason arrived at Cascade Behavioral with a walker a
 
 :end
 INSET PHOTO: MASON
-section22:
+section23:
 
 “I’m going to die here,” she recalls him saying. A few days later, the hospital called to say he had fallen and was receiving emergency care. When she and family members arrived at his bedside, “His face looked like he had been hit with a baseball bat,” Brown said. “It breaks my heart.”
 

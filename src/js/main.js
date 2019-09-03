@@ -1,11 +1,12 @@
 require("./lib/ads");
 var track = require("./lib/tracking");
-var paywall = require("./lib/paywall");
-setTimeout(() => paywall(11086587), 5000);
+// var paywall = require("./lib/paywall");
+// setTimeout(() => paywall(11086587), 5000);
 
 
 require("component-responsive-frame/child");
 require("./bc-preroll");
+require("./bubble");
 
 // var promise = document.querySelector('video').play();
 
