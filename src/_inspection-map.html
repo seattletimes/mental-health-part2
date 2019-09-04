@@ -1,0 +1,28 @@
+<responsive-child class="map-container">
+    <div class="outmost">
+      <section class="chatter">
+        <h1>Hospital inspections by state</h1>
+        <p>There are at least 18 states that publish hospital inspection reports online.<b>Click on a state for where to find them.</b></p>
+      </section>
+
+      <div class="aspect-ratio-outer">
+        <div class="aspect-ratio-inner">
+
+          <leaflet-map lat="40.35" lng="-99.0" zoom=3>
+            <tile-layer layer="cartoPositron"></tile-layer>
+          </leaflet-map>
+
+        </div>
+        <aside class="legend">
+          <h1>Facility inspections</h1>
+          <ul class="scale">
+            <li>
+              <span class="block" style="background-color: #e24a12"></span> States with public report</li>
+          </ul>
+        </aside>
+      </div>
+
+      <div class="source">Source: Individual states
+        <span class="credit">Emily M. Eng / THE SEATTLE TIMES</div>
+    </div>
+  </responsive-child>

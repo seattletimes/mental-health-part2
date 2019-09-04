@@ -8,6 +8,7 @@ require("component-responsive-frame/child");
 require("./bc-preroll");
 require("./bubble");
 require("./facility-map");
+require("./inspection-map");
 
 // var promise = document.querySelector('video').play();
 
