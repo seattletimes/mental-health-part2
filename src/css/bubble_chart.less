@@ -18,6 +18,7 @@ a, a:visited, a:active {
   border: 1px solid #e0e0e0;
   padding: 10px;
   border-radius: 10px;
+  font-family: @df-sans;
 }
 
 .button.active {
@@ -73,4 +74,82 @@ a, a:visited, a:active {
 
 .footer {
   text-align: center;
+}
+
+
+.chatter {
+  h1 {
+    font-size: 28px;
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  h2 {
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.2;
+  }
+  p {
+    text-align: left;
+    font-family: @df-serif;
+  }
+}
+
+.key {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  .dot-reported {
+    height: 28px;
+    width: 28px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: rgb(235, 150, 0);
+    border: 2px solid rgb(165, 105, 0);
+  }
+
+  .dot-unreported {
+    height: 28px;
+    width: 28px;      
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    stroke-width: 2px;
+    background-color: #48707c;
+    border: 2px solid rgb(50, 78, 87);
+  }
+
+  .label {
+    font-family: @df-sans;
+    text-transform: uppercase;
+    padding: 0px 30px 0px 10px;
+    font-weight: bold;
+  }
+
+  .labelTop{
+    font-family: @df-sans;
+    text-transform: uppercase;
+    padding: 0px 40px 0px 10px;
+    font-weight: bold;
+    margin-top: -25px;
+  }
+
+  .labelBottom{
+    font-family: @df-sans;
+    text-transform: uppercase;
+    padding: 0px 40px 0px 10px;
+    font-weight: bold;
+  }
+}
+
+.circle {
+  margin-top: 10px;
+  padding: 20px 0 0 0;
+}
+
+.four {
+  width: 80px;
 }
