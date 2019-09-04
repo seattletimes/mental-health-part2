@@ -7,6 +7,7 @@ var track = require("./lib/tracking");
 require("component-responsive-frame/child");
 require("./bc-preroll");
 require("./bubble");
+require("./facility-map");
 
 // var promise = document.querySelector('video').play();
 
