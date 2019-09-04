@@ -62,7 +62,7 @@
   .captionLeft {
     margin: 6px auto 0;
     max-width: 960px;
-    text-align: right;
+    text-align: left;
     line-height: 1.2;
     font-size: 14px;
     font-style: italic;
@@ -81,7 +81,7 @@
   }
   
   hr {
-      max-width: 600px;
+      max-width: 630px;
       width: 50%;
       height: 2px;
       background: #e0e0e0;
@@ -264,6 +264,7 @@
     .display-flex();
     max-height: 600px;
     width: 100%;
+    padding: 25px 0px 10px;
   
     @media @tablet {
       display: inline-block;
@@ -271,7 +272,6 @@
   }
 
   .outmost {
-    padding: 8px 0;
     margin: 20px auto;
     max-width: 960px;
     padding-bottom: 0;
@@ -307,6 +307,7 @@
   .map-container {
     position: relative;
     display: block;
+    padding-top: 0;
   
   }
   .bigheader {
@@ -327,7 +328,7 @@
     }
     p {
       text-align: center;
-      font-family: @df-serif;
+      font-family: @df-sans;
     }
   }
   
@@ -356,6 +357,7 @@
       font-size: 18px;
       text-align: center;
       font-weight: bold;
+      font-family: @df-sans;
     }
   
       img {
@@ -389,14 +391,15 @@
 .map-container2 {
     position: relative;
     display: block;
+    padding-top: 0;
   }
 
 .outmost2 {
-  padding: 8px 0;
   margin: 20px auto;
   max-width: 630px;
   padding-bottom: 0;
   clear: both;
+  margin-bottom: 0;
 }
 
 .aspect-ratio-outer2 {

@@ -29,7 +29,7 @@ The full scope of safety incidents at the private facilities is essentially invi
 When a patient or staff member suffers serious, largely preventable harm, hospitals are supposed to report it to the state as an “adverse event.” The self-reported events, however, leave out dozens of incidents ranging from broken bones to sudden deaths, according to a database The Times built by obtaining workers’ compensation data, emergency dispatcher notes and more than 1,000 pages of police, regulatory and court records.
 
 :end
-GRAPHIC:STATEMENTS OF DEFICIENCIES IN WASHINGTON
+prologue
 section3:
 
 In the past three years, the six private psychiatric hospitals in Western Washington that have been open at least a year reported a combined 15 adverse events to the state. The Times found 350 incidents in which patients or staff were assaulted, suffered an injury, attempted suicide, escaped or died suddenly at these hospitals over the same time — an average of more than twice a week.
@@ -50,11 +50,11 @@ Vollendroff also wasn’t informed when state or federal officials found violati
 
 Michael Uradnik, Cascade’s chief executive, declined to be interviewed but said in written responses that serious cases of harm are rare and that Cascade strictly follows the law in reporting them to the state.
 
-“Many of our patients come to our facility experiencing some of the most profoundly challenging behavioral and medical health challenges of their lives, including being turned away or transferred from other hospitals that are unwilling or unable to provide the highly intensive, specialized services offered at Cascade,” Uradnik wrote.
-
 :end
 INSET: STATEMENT FROM URADNIK
 section5:
+
+“Many of our patients come to our facility experiencing some of the most profoundly challenging behavioral and medical health challenges of their lives, including being turned away or transferred from other hospitals that are unwilling or unable to provide the highly intensive, specialized services offered at Cascade,” Uradnik wrote.
 
 He added, “The small number of isolated incidents referenced provide a highly incomplete, inaccurate and non-representative depiction of Cascade that is not at all reflective of the overall quality of care, patient experience and community public health benefit provided by our clinicians to thousands of patients annually.”
 
@@ -117,7 +117,7 @@ section11:
 The acquisition “is absolutely going to be a gem for us,” Acadia’s president told financial analysts the following spring. “Because of the way we were able to extract it from a not-for-profit,” he continued, Acadia had acquired it at a “very attractive valuation,” according to an event transcript produced by S&P Global Market Intelligence.
 
 :end
-prologue
+watchdog
 section12:
 
 Acadia’s acquisition was part of a broader transformation in how patients in Washington state receive care for serious mental health and substance-use disorders. In 2018, private psychiatric hospitals treated 35% of people admitted to a hospital with such conditions in Washington state, up from 17% in 2012, according to a Times analysis of hospital-discharge data.
@@ -236,7 +236,7 @@ When a patient dies suddenly at a hospital in Washington state, there is almost 
 Descalso’s death surfaced in an inspection report, which described him only as “Patient #9,” after regulators learned of the cardiac arrest and faulted Cascade for failing to document how its staff responded. The hospital didn’t report Descalso’s death as an adverse event to the state, and it isn’t clear that it had to.
 
 :end
-ad
+map inspections
 section22:
 
 Hospitals have to report adverse events — including when a patient falls, gets assaulted or dies — but only in certain circumstances. They don’t have to report a death unless it was caused by specific types of mistakes, such as a device malfunction or medication error. They don’t have to report assaults, suicide attempts and escapes unless they result in death or “serious injury,” defined as loss of limb, bodily function or harm that requires surgery. There are no penalties for failing to report.
@@ -352,7 +352,7 @@ The regulatory scrutiny was intended to force improvements at Cascade, but it di
 
 :end
 section30:
-# “I’m going to die here“
+# “I’m going to die here&rdquo;
 
 On June 22, 2017, the hospital readmitted a patient so violent he had been placed on a “do not admit list” after his last stay. “Patient #1,” as he is described in an inspection report, sent another patient to an emergency room with a broken nose and wounds to his face and lip. He knocked another patient unconscious in an attack that drew a “significant amount of blood” and also required emergency medical care for the victim.
 

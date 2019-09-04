@@ -17,7 +17,7 @@
           <img src="assets/line.jpg"></div>
         <h2>At private psychiatric hospitals, safety incidents go unreported and violations go unpunished</h2>
         <img src="assets/photos/codi.jpg" alt="Photo of Codi Branson" aria-describedby="codi-caption"></a>
-        <div class="caption" id="codi-caption">When her former husband needed treatment for alcoholism, Codi Branson   felt confident that Cascade Behavioral Hospital in Tukwila would be a good fit. He died three days after checking in. (Erika Schultz / The Seattle Times)</div>
+        <div class="captionLeft" id="codi-caption">When her former husband needed treatment for alcoholism, Codi Branson felt confident that Cascade Behavioral Hospital in Tukwila would be a good fit. He died three days after checking in. (Erika Schultz / The Seattle Times)</div>
       </div>
     </header>
 
@@ -32,24 +32,24 @@
           <%= t.renderMarkdown(archieml.text2.section1) %>
       </div>
 
-      <div class="floating constrained">
-        <div class="resources">
-          <h6 style="padding: 10px">You can support watchdog journalism</h6>
-          Make a tax-deductible donation to <a href="https://company.seattletimes.com/investigativefund/">The Seattle Times Investigative Journalism Fund,</a> and subscribe to <a href="https://www.seattletimes.com/subscribe/signup-offers/">The Seattle Times.</a>
-        </div>
-      </div>
-
       <div class="constrained">
         <%= t.renderMarkdown(archieml.text2.section2) %>
       </div>
 
-    <hr>
 
-    <div>
-      <%= t.include("_facility-map.html") %>
-    </div>
-        
-    <hr>
+      <div class="visible-mobile">
+          <hr>
+        </div>
+  
+        <div class="floating constrained">
+          <div>
+            <a href="http://projects.seattletimes.com/2019/public-crisis-private-toll-prologue"> <h3>Primer: Washington's<br>mental-health care crisis</h3><img src="assets/photos/image6m.jpg" alt="Link to read the overview of mental healthcare in Washington"></a>
+          </div>
+        </div>
+  
+        <div class="visible-mobile">
+          <hr>
+        </div>
     
       <div class="constrained">
         <%= t.renderMarkdown(archieml.text2.section3) %>
@@ -100,7 +100,7 @@
         </div>
 
         <hr>
-        
+
         <div>
           <%= t.include("_inspection-map.html") %>
         </div>
@@ -131,26 +131,21 @@
         <div class="quote">
           <img src="assets/long-quote.jpg" class="hidden-mobile" style="opacity: 0.15">
           <img src="assets/quote.jpg" class="visible-mobile" style="opacity: 0.15">
-        <h5>The acquisition “is absolutely going to be a gem for us,” Acadia’s president told financial analysts the following spring</h5>
+        <h5>The acquisition “is absolutely going to be a gem for us,” Acadia’s president told financial analysts the following spring.</h5>
         </div>
 
       <div class="constrained">
           <%= t.renderMarkdown(archieml.text2.section11) %>
       </div>
 
-      <div class="visible-mobile">
-        <hr>
-      </div>
-
-      <div class="floating constrained">
-        <div>
-          <a href="http://projects.seattletimes.com/2019/public-crisis-private-toll-prologue"> <h3>Primer: Washington's<br>mental-health care crisis</h3><img src="assets/photos/image6m.jpg" alt="Link to read the overview of mental healthcare in Washington"></a>
-        </div>
-      </div>
-
-      <div class="visible-mobile">
-        <hr>
-      </div>
+        <div class="floating constrained">
+            <div class="resources">
+              <a href="https://www.seattletimes.com/seattle-news/resources-for-mental-health-support/"><h3>Resources for mental-health support</h3></a>
+              <li><a href="https://www.seattletimes.com/seattle-news/resources-for-mental-health-support/#one">In a crisis?</a></li>
+              <li><a href="https://www.seattletimes.com/seattle-news/resources-for-mental-health-support/#two">Need support?</a></li>
+              <li><a href="https://www.seattletimes.com/seattle-news/resources-for-mental-health-support/#three">Worried about someone you know?</a></li>
+            </div>
+          </div>
 
       <div class="constrained">
         <%= t.renderMarkdown(archieml.text2.section12) %>
@@ -179,8 +174,13 @@
       <div class="content line top">
           <img src="assets/line.jpg"></div>
 
-
-      <div class="constrained">
+      <div class="photoMedium">
+          <img src="assets/photos/eric-old-daughter.jpg" alt="Eric Descalso holding young daughter" aria-describedby="eric-old-daughter-caption">
+        </a>
+          <div class="caption" id="eric-old-daughter-caption">Danielle Descalso and her dad, Eric Descalso, "were best friends," says her mother, Codi Branson. (Courtesy of Descalso family)</div>
+        </div>
+ 
+      <div class="constrained top">
         <%= t.renderMarkdown(archieml.text2.section15) %>
       </div>
 
@@ -195,13 +195,11 @@
       </div>
 
       <div class="floating constrained">
-        <div class="resources">
-          <a href="https://www.seattletimes.com/seattle-news/resources-for-mental-health-support/"><h3>Resources for mental-health support</h3></a>
-          <li><a href="https://www.seattletimes.com/seattle-news/resources-for-mental-health-support/#one">In a crisis?</a></li>
-          <li><a href="https://www.seattletimes.com/seattle-news/resources-for-mental-health-support/#two">Need support?</a></li>
-          <li><a href="https://www.seattletimes.com/seattle-news/resources-for-mental-health-support/#three">Worried about someone you know?</a></li>
+          <div class="resources">
+            <h6 style="padding: 10px">You can support watchdog journalism</h6>
+            Make a tax-deductible donation to <a href="https://company.seattletimes.com/investigativefund/">The Seattle Times Investigative Journalism Fund,</a> and subscribe to <a href="https://www.seattletimes.com/subscribe/signup-offers/">The Seattle Times.</a>
+          </div>
         </div>
-      </div>
 
       <div class="constrained">
         <%= t.renderMarkdown(archieml.text2.section17) %>
@@ -216,23 +214,17 @@
         <%= t.renderMarkdown(archieml.text2.section18) %>
       </div>
 
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.text2.section19) %>
+      </div>
+
       <div class="photoMedium">
           <img src="assets/photos/eric-old-daughter.jpg" alt="Eric Descalso holding young daughter" aria-describedby="eric-old-daughter-caption">
         </a>
           <div class="caption" id="eric-old-daughter-caption">Danielle Descalso and her dad, Eric Descalso, "were best friends," says her mother, Codi Branson. (Courtesy of Descalso family)</div>
         </div>
 
-      <div class="constrained">
-        <%= t.renderMarkdown(archieml.text2.section19) %>
-      </div>
-
-      <div class="quote">
-        <img src="assets/long-quote.jpg" class="hidden-mobile" style="opacity: 0.3">
-        <img src="assets/quote.jpg" class="visible-mobile" style="opacity: 0.3">
-      <h5>“Maybe I should have checked into it more,” said Codi Branson, Eric Descalso's ex-wife. “It’s, like, what did I miss?”</h5>
-    </div>
-
-        <div class="content line">
+        <div class="content line top">
             <img src="assets/line.jpg"></div>
 
       <div class="constrained">
@@ -249,9 +241,13 @@
         <%= t.renderMarkdown(archieml.text2.section21) %>
       </div>
 
-      <div class="content constrained floating">
-        <%= t.include("partials/_ad.html", { type: "square" }) %>
+      <hr>
+
+      <div>
+        <%= t.include("_facility-map.html") %>
       </div>
+          
+      <hr>
 
       <div class="constrained">
         <%= t.renderMarkdown(archieml.text2.section22) %>
@@ -353,7 +349,7 @@
         <div class="quote">
           <img src="assets/long-quote.jpg" class="hidden-mobile" style="opacity: 0.3">
           <img src="assets/quote.jpg" class="visible-mobile" style="opacity: 0.3">
-        <h5>Tukwila police and fire responded to a reported assault at Cascade Behavioral but, upon arrival, “a nurse came out and said there was no assault and sent them on their way,”</h5>
+        <h5>Tukwila police and fire responded to a reported assault at Cascade Behavioral but, upon arrival, “a nurse came out and said there was no assault and sent them on their way.”</h5>
       </div>
 
       <div class="constrained">
