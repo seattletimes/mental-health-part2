@@ -2,24 +2,24 @@
 require("component-leaflet-map");
 require("component-responsive-frame");
 
-//get access to Leaflet and the map
-var element = document.querySelector("leaflet-map2");
-var L = element.leaflet;
-var map = element.map;
+//get access to Leaflet and the map2
+var element = document.querySelector("leaflet-map.inspection");
+var L2 = element.leaflet;
+var mapInspection = element.map;
 
 //ICH code for popup template if needed----------
 var ich = require("icanhaz");
 var templateFile = require("./_popup-inspection.html");
-ich.addTemplate("popup", templateFile);
+ich.addTemplate("popup-inspection", templateFile);
 
-var data = require("./inspections.geo.json");
-var mapElement = document.querySelector("leaflet-map2");
+var dataInspection = require("./inspections.geo.json");
+var mapElementInspection = document.querySelector("leaflet-map.inspection");
 
-if (mapElement) {
-    var L = mapElement.leaflet;
-    var map = mapElement.map;
+if (mapElementInspection) {
+    var L2 = mapElement.leaflet;
+    var mapInspection = mapElement.map2;
   
-    map.scrollWheelZoom.disable();
+    map2.scrollWheelZoom.disable();
   
     var focused = false;
   
@@ -78,17 +78,17 @@ if (mapElement) {
       return s;
     }
   
-    var geojson = L.geoJson(data, {
+    var geojson = L2.geoJson(dataInspection, {
       style: style,
       onEachFeature: onEachFeature
-    }).addTo(map);
+    }).addTo(map2);
   
   }
   
-   map.scrollWheelZoom.disable();
+   map2.scrollWheelZoom.disable();
 
 // Add city/neighborhood labels above tracts
 var topLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png', {
     opacity: 0.6,
     pane: "markerPane",
-  }).addTo(map);
+  }).addTo(map2);

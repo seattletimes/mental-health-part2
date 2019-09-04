@@ -43,10 +43,14 @@
         <%= t.renderMarkdown(archieml.text2.section2) %>
       </div>
 
+    <hr>
+
     <div>
       <%= t.include("_facility-map.html") %>
     </div>
         
+    <hr>
+    
       <div class="constrained">
         <%= t.renderMarkdown(archieml.text2.section3) %>
       </div>
@@ -65,7 +69,6 @@
           <%= t.include("_kresch.html") %>
         </div>
 
-
       <div class="constrained">
         <%= t.renderMarkdown(archieml.text2.section5) %>
       </div>
@@ -79,6 +82,8 @@
       <div class="visible-mobile">
         <%= t.include("_bubbleChartMobile.html") %>
       </div>
+
+      <hr>
 
       <div class="constrained">
         <%= t.renderMarkdown(archieml.text2.section6) %>
@@ -94,9 +99,13 @@
           <%= t.renderMarkdown(archieml.text2.section7) %>
         </div>
 
+        <hr>
+        
         <div>
           <%= t.include("_inspection-map.html") %>
         </div>
+
+        <hr>
 
       <div class="constrained">
           <%= t.renderMarkdown(archieml.text2.section8) %>
