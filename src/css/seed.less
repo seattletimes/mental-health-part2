@@ -1,6 +1,5 @@
 @import "seattletimes";
 @import "bc-preroll";
-@import "kresch";
 @import "comments";
 @import "bubble_chart";
 @import "leaflet-tweaks";
@@ -320,18 +319,6 @@
     }
   }
   
-  .chatter {
-    h1 {
-      font-size: 20px;
-      text-align: center;
-      line-height: 1.2;
-    }
-    p {
-      text-align: center;
-      font-family: @df-sans;
-    }
-  }
-  
   //custom
   .map-area {
     padding-top: 5px;
@@ -402,11 +389,11 @@
   margin-bottom: 0;
 }
 
-.aspect-ratio-outer2 {
+.aspect-ratio-outer {
   width: 100%;
   position: relative;
 
-  .aspect-ratio-inner2 {
+  .aspect-ratio-inner {
     padding-bottom: percentage(@aspect-ratio);
     position: relative;
   }

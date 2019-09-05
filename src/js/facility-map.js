@@ -4,9 +4,9 @@ require("component-responsive-frame");
 
 
 //get access to Leaflet and the map
-var element = document.querySelector("leaflet-map.facility");
+var element = document.getElementById("facility-map");
 var L = element.leaflet;
-var mapFacility = element.map;
+var map = element.map;
 
 var ich = require("icanhaz");
 var templateFile = require("./_popup.html");
@@ -41,7 +41,7 @@ var onEachFeature = function(feature, layer) {
   });
 };
 
-map1.scrollWheelZoom.disable();
+map.scrollWheelZoom.disable();
 
 function geojsonMarkerOptions(feature) {
 
@@ -63,7 +63,7 @@ var geojson = L.geoJson(data, {
     },
     style: geojsonMarkerOptions,
     onEachFeature: onEachFeature
-}).addTo(map1);
+}).addTo(map);
 
-map1.scrollWheelZoom.disable();
+map.scrollWheelZoom.disable();
 

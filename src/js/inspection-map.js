@@ -2,31 +2,31 @@
 require("component-leaflet-map");
 require("component-responsive-frame");
 
-//get access to Leaflet and the map2
-var element = document.querySelector("leaflet-map.inspection");
-var L2 = element.leaflet;
-var mapInspection = element.map;
+//get access to Leaflet and the map
+var element = document.getElementById("inspection-map");
+var L = element.leaflet;
+var map = element.map;
 
 //ICH code for popup template if needed----------
 var ich = require("icanhaz");
 var templateFile = require("./_popup-inspection.html");
-ich.addTemplate("popup-inspection", templateFile);
+ich.addTemplate("popupInspection", templateFile);
 
-var dataInspection = require("./inspections.geo.json");
-var mapElementInspection = document.querySelector("leaflet-map.inspection");
+var data = require("./inspections.geo.json");
+var mapElement = document.getElementById("inspection-map");
 
-if (mapElementInspection) {
-    var L2 = mapElement.leaflet;
-    var mapInspection = mapElement.map2;
+if (mapElement) {
+    var L = mapElement.leaflet;
+    var map = mapElement.map;
   
-    map2.scrollWheelZoom.disable();
+    map.scrollWheelZoom.disable();
   
     var focused = false;
   
     var color = "color";
   
 		var onEachFeature = function(feature, layer) {
-		  layer.bindPopup(ich.popup(feature.properties))
+		  layer.bindPopup(ich.popupInspection(feature.properties))
 		  layer.on({
 		  	     mouseover: function(e) {
 		        layer.setStyle({ weight: 2.5, fillOpacity: 1 });
@@ -78,17 +78,17 @@ if (mapElementInspection) {
       return s;
     }
   
-    var geojson = L2.geoJson(dataInspection, {
+    var geojson = L.geoJson(data, {
       style: style,
       onEachFeature: onEachFeature
-    }).addTo(map2);
+    }).addTo(map);
   
   }
   
-   map2.scrollWheelZoom.disable();
+   map.scrollWheelZoom.disable();
 
 // Add city/neighborhood labels above tracts
 var topLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png', {
     opacity: 0.6,
     pane: "markerPane",
-  }).addTo(map2);
+  }).addTo(map);
