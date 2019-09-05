@@ -61,7 +61,7 @@ function bubbleChart() {
     "Escape":           3.1/6 * marginWidth,
     "Fall":             3.9/6 * marginWidth,
     "Suicide attempt":  4.7/6 * marginWidth,
-    "Other":            5.5/6 * marginWidth,
+    "Other**":            5.5/6 * marginWidth,
   };
 
   // @v4 strength to apply to the position forces
