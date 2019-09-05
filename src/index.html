@@ -43,7 +43,8 @@
   
         <div class="floating constrained">
           <div>
-            <a href="http://projects.seattletimes.com/2019/public-crisis-private-toll-prologue"> <h3>Primer: Washington's<br>mental-health care crisis</h3><img src="assets/photos/image6m.jpg" alt="Link to read the overview of mental healthcare in Washington"></a>
+            <a href="http://projects.seattletimes.com/2019/public-crisis-private-toll-prologue"> <h3>Public Crisis, Private Toll:
+                <br>Read the full investigation</h3><img src="assets/photos/image6m.jpg" alt="Link to read the overview of mental healthcare in Washington"></a>
           </div>
         </div>
   
@@ -175,9 +176,9 @@
           <img src="assets/line.jpg"></div>
 
       <div class="photoMedium">
-          <img src="assets/photos/eric-old-daughter.jpg" alt="Eric Descalso holding young daughter" aria-describedby="eric-old-daughter-caption">
+          <img src="assets/photos/eric-entry.jpg" alt="Eric Descalso upon entry to Cascade Behavioral" aria-describedby="eric-entry-caption">
         </a>
-          <div class="caption" id="eric-old-daughter-caption">Danielle Descalso and her dad, Eric Descalso, "were best friends," says her mother, Codi Branson. (Courtesy of Descalso family)</div>
+          <div class="caption" id="eric-entry-caption">XXXX (Courtesy of XXX)</div>
         </div>
  
       <div class="constrained top">
@@ -207,7 +208,7 @@
 
       <div class="center">
         <%= t.include("_prerollVideo.html", { file: "codi_titlecard.mp4", id: "6068745312001", runtime: "3:22" }) %>
-        <div class="caption">xxxxxxx (Erika Schultz, Gabriel Campanario & Lauren Frohne / The Seattle Times)</div>
+        <div class="caption">Codi Branson reflects on her ex-husband’s last days. “I thought he was more cared-for in that setting, that it was a hospital.” (Erika Schultz, Gabriel Campanario & Lauren Frohne / The Seattle Times)</div>
       </div>
 
       <div class="constrained">
@@ -257,7 +258,6 @@
         <div class="indent">
           <li>At Navos, a nonprofit hospital in West Seattle for patients who have been involuntarily committed, at least 17 patients escaped over three years. One patient who escaped was found unresponsive, with a blood-alcohol concentration of 0.57 — a level that can be fatal — and was taken to Harborview Medical Center where he survived, records show.</li><br>
           <li>At BHC Fairfax Hospital in Kirkland, there were at least 14 escapes and 133 assaults over three years. Last August, there were two escapes, one apparent suicide attempt and four incidents in which a hospital staffer was assaulted or hurt trying to restrain a patient.</li><br>
-          <li>A staff member threw away the catheter that a “wheelchair bound” patient used to manage a urinary condition, only for another staffer to remove it from the biohazard trash, wash it off and return it to the patient.</li><br>
           <li>At BHC Fairfax’s Everett facility, which hasn’t reported any adverse events, one patient seized another patient by the back of the head and “punched him in the face repeatedly with the other hand.” A police officer wrote of the October 2018 incident, “Staff at the facility stated they did not have adequate resources at the facility to prevent any further incidents of violence.”</li><br>
           <li>At Smokey Point Behavioral Hospital, which opened in June 2017, The Times was able to identify 28 unreported assaults through law enforcement and regulatory records. But that represents only a slice of the violence occurring inside the hospital. Its own incident log recorded 88 assaults in 2018 alone, according to a state inspection report, which didn’t provide details of the incidents.</li>
           </div>
@@ -266,18 +266,29 @@
       <div class="constrained">
           <%= t.renderMarkdown(archieml.text2.section23) %>
       </div>
-      
+
+      <hr>
+
+      <div>
+          <h2 class="map">Three assaults at BHC Fairfax Hospital in Kirkland</h2></div>
         <div class="triple">
+
             <div class="image-container">
-                <iframe src="//players.brightcove.net/1509317113/V1eCvUwO2g_default/index.html?videoId=6069385542001" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
+                <video src="./assets/videos/20190715_Fairfax_security_1.mp4" controls playsinline ></video>
+                <div class="caption" id="turner-caption"><b>Oct. 31, 2017:</b> The victim was taken to Evergreen Medical Center for his injuries. The assailant was charged with misdemeanor assault.</div>
             </div>
             <div class="image-container">
-                <iframe src="//players.brightcove.net/1509317113/V1eCvUwO2g_default/index.html?videoId=6069385321001" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
+                <video src="./assets/videos/20190715_Fairfax_security_2.mp4" controls playsinline ></video>
+                <div class="caption" id="turner-caption"><b>Oct. 17, 2018:</b> The victim lost a front tooth and suffered an apparent broken nose. The assailant was arrested and the case was sent to the prosecutor.</div>
             </div>
             <div class="image-container">
-                <iframe src="//players.brightcove.net/1509317113/V1eCvUwO2g_default/index.html?videoId=6069385387001" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
+                <video src="./assets/videos/20190715_Fairfax_security_3.mp4" controls playsinline ></video>
+                <div class="caption" id="turner-caption"><b>Dec. 27, 2018:</b> The staff member, who had just been punched in the face, was then bitten on the hand. Police referred the assailant for prosecution.</div>
             </div>
+
           </div>
+
+          <hr>
 
         <div class="constrained">
             <%= t.renderMarkdown(archieml.text2.section24) %>
@@ -356,38 +367,36 @@
           <%= t.renderMarkdown(archieml.text2.section31) %>
         </div>
 
-        <div class="content constrained floating">
-          <%= t.include("partials/_ad.html", { type: "square" }) %>
-        </div>
-
         <div class="constrained">
           <%= t.renderMarkdown(archieml.text2.section32) %>
         </div>
 
-        <div class="floating constrained">
-          <div>
-            <img src="assets/photos/tomich.jpg" alt="Carolyn Tomich" aria-describedby="tomich-caption">
-          </a>
-            <div class="caption" id="tomich-caption">Carolyn Tomich, 76, was photographed at Cascade Behavioral Hospital the day she fell and broke her hip in June 2017. The fracture contributed to her death a few weeks later. (Courtesy of Tracee Tomich)</div>
+        <div class="triple">
+            <div class="image-container">
+                <img src="assets/photos/tomich.jpg" alt="Carolyn Tomich" aria-describedby="tomich-caption">
+              </a>
+                <div class="caption" id="tomich-caption">Carolyn Tomich, 76, was photographed at Cascade Behavioral Hospital the day she fell and broke her hip in June 2017. The fracture contributed to her death a few weeks later. (Courtesy of Tracee Tomich)</div>
+            </div>
+            <div class="image-container">
+                <img src="assets/photos/turner.jpg" alt="Kenneth Turner" aria-describedby="turner-caption">
+              </a>
+                <div class="caption" id="turner-caption">XXXX(Courtesy of XXX)</div>
+            </div>
+            <div class="image-container">
+                <img src="assets/photos/mason.jpg" alt="Jim Mason" aria-describedby="mason-caption">
+              </a>
+                <div class="caption" id="mason-caption">Jim Mason, 92, died after a fall at Cascade Behavior Hospital that caused a hemorrhage and "blunt force injuries to the head" in May 2018. (Courtesy of Tim Johnson)</div>
+            </div>
           </div>
-        </div>
+
 
         <div class="constrained">
           <%= t.renderMarkdown(archieml.text2.section33) %>
         </div>
 
-      <div class="floating constrained">
-          <div>
-            <img src="assets/photos/mason.jpg" alt="Jim Mason" aria-describedby="mason-caption">
-          </a>
-            <div class="caption" id="mason-caption">Jim Mason, 92, died after a fall at Cascade Behavior Hospital that caused a hemorrhage and "blunt force injuries to the head" in May 2018. (Courtesy of Tim Johnson)</div>
+        <div class="content constrained floating">
+            <%= t.include("partials/_ad.html", { type: "square" }) %>
           </div>
-        </div>
-
-      <!-- <div class="constrained photo">
-        <img src="assets/photos/reum.jpg" alt="Sarah Reum" aria-describedby="reum-caption">
-        </a>
-      </div> -->
 
       <div class="constrained">
         <%= t.renderMarkdown(archieml.text2.section34) %>
@@ -403,21 +412,8 @@
       <%= t.renderMarkdown(archieml.text2.section35) %>
     </div>
 
-      <!-- <div class="visible-mobile">
-        <hr>
-      </div>
-
-      <a name="timeline">
-      <div class="floating constrained">
-        <div>
-          <a href="https://projects.seattletimes.com/2019/public-crisis-private-toll-timeline/"><h3>Click to see a timeline of Rosemary Torgesen's last months</h3><img src="assets/photos/timeline2.jpg" alt="Timeline or Rosemary Torgesen's last months"></a>
-        </div>
-      </div>
-    </a> -->
-
-
-<div class="content line top">
-  <img src="assets/line.jpg"></div>
+    <div class="content line top">
+      <img src="assets/line.jpg"></div>
 
       <%= t.include("partials/_dontMiss.html") %>
 

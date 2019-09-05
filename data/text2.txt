@@ -374,15 +374,16 @@ section32:
 
 But a disturbing pattern continued: Over 13 months, from April 2017 through May 2018, Cascade reported eight patient falls to the state that resulted in death or serious injury. The hospital itself flagged patient fall rates as an “outlier” in quality data, state records show.
 
+:end
+triple photo
+section33:
+
 In one case identified by inspectors, an 85-year-old dementia patient fell when staff wasn’t watching. And her chart, which initially said she had been sleeping at the time of her fall, was later altered to acknowledge that she wasn’t.
 
 State officials couldn’t say how many falls contributed to deaths, but at least some did.
 
 At about 3 a.m. on June 3, 2017, a 76-year-old former teacher, Carolyn Tomich, experienced what hospital staff described as a “non-injury fall” in her medical records. Instead of sending her to a hospital, Cascade contacted her daughter, Tracee Tomich, and recommended she take her mother to see a doctor.
 
-:end
-INSET PHOTO: TOMICH
-section33:
 
 With difficulty, Tracee Tomich loaded her mother into her truck and took her to a hospital. To her shock, her mother was diagnosed with a broken hip. Carolyn Tomich died three weeks later, with the broken hip listed as a contributing factor.
 
