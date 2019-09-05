@@ -13,9 +13,9 @@ require("component-responsive-frame/child");
  */
 function bubbleChart() {
   // Constants for sizing
-  var width = 400;
-  var height = 600;
-  var marginWidth = 380;
+  var width = 320;
+  var height = 300;
+  var marginWidth = 300;
 
   // tooltip for mouseover functionality
   var tooltip = floatingTooltip('incident_tooltip', 240);
@@ -132,7 +132,7 @@ function bubbleChart() {
     // @v4: new flattened scale names.
     var radiusScale = d3.scalePow()
       .exponent(0.5)
-      .range([1, 30])
+      .range([1, 13])
       .domain([0, maxAmount]);
 
     // Use map() to convert raw data into node data.

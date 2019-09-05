@@ -72,10 +72,19 @@ aside.sidebarlegend {
   @media @tablet {
     display: block;
   }
+  
+  @media @mobile {
+    display: inline-block;
+  }
+
   .credit {
     font-style: normal;
     text-transform: uppercase;
     display: inline-block;
     float: right;
+
+    @media @mobile {
+      padding-top: 10px;
+    }
   }
 }
