@@ -7,7 +7,6 @@
 @import "seattle-flexmap";
 @import "legend";
 
-
 .visible-mobile {
     display: none !important;
   }
@@ -392,12 +391,13 @@
 .aspect-ratio-outer {
   width: 100%;
   position: relative;
-
   .aspect-ratio-inner {
-    padding-bottom: percentage(@aspect-ratio);
+    padding-bottom: percentage(6/5);
     position: relative;
+    @media @mobile {
+      padding-bottom:percentage(5/6);
+    }
   }
-
   leaflet-map {
     position: absolute;
     top: 0;
@@ -409,3 +409,27 @@
     }
   }
 }
+
+.map-area {
+  padding-top: 5px;
+  .display-flex();
+  @media @mobile {
+    .flex-direction(column);
+  }
+};
+.area1 {
+  .flex(2);
+  .flex-wrap(row wrap);
+  @media @mobile {
+    .flex(1);
+    .flex-order(2);
+  }
+};
+.area2 {
+  .flex(1);
+  .flex-wrap(row wrap);
+  padding: 8px 12px;
+  @media @mobile {
+    .flex-order(1);
+  }
+};
