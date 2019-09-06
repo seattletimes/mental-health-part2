@@ -10,14 +10,14 @@
       <%= t.include("partials/_nav.html") %>
 
     <header>
-      <iframe src="./assets/videos/2-seconds-of-silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
       <h1>PUBLIC CRISIS, PRIVATE TOLL </h1>
       <h3>The hidden costs of the mental-health industry’s expansion</h3>
         <div class="content line constrained">
           <img src="assets/line.jpg"></div>
-        <h2>At private psychiatric hospitals, a hidden safety record and its human cost</h2>
-        <img src="assets/photos/codi.jpg" alt="Photo of Codi Branson" aria-describedby="codi-caption"></a>
-        <div class="captionLeft" id="codi-caption">When her former husband needed treatment for alcoholism, Codi Branson felt confident that Cascade Behavioral Hospital in Tukwila would be a good fit. He died three days after checking in. (Erika Schultz / The Seattle Times)</div>
+        <h2>At private psychiatric hospitals, a hidden safety record, a human cost</h2>
+        <img src="assets/photos/eric-entry.jpg" alt="Eric Descalso upon entry to Cascade Behavioral" aria-describedby="eric-entry-caption">
+      </a>
+        <div class="captionLeft" id="eric-entry-caption">Peter Eric Descalso checked into Cascade Behavioral Hospital in December 2016 for alcoholism treatment. This document was part of his admission paperwork. (Courtesy of the Descalso family)</div>
       </div>
     </header>
 
@@ -67,8 +67,7 @@
 
         <div class="floating constrained">
             <div class="resources">
-              <h6 style="padding: 10px">Response from Cascade Behavioral CEO<br>Michael Uradnik</h6>
-              <a href="https://www.seattletimes.com/seattle-news/times-watchdog/response-from-cascade-behavioral-ceo-michael-uradnik/">Thank you for providing a summary of your planned story and affording Cascade Behavioral Health (Cascade) an opportunity to respond</a>
+              <a href="https://www.seattletimes.com/seattle-news/times-watchdog/response-from-cascade-behavioral-ceo-michael-uradnik/"><h3 style="line-height: 1.4">Read the full response from Cascade Behavioral CEO Michael Uradnik</h3></a>
             </div>
           </div>
 
@@ -192,11 +191,10 @@
           <%= t.renderMarkdown(archieml.text2.section16) %>
         </div>
 
-      <div class="photoMedium">
-          <img src="assets/photos/eric-entry.jpg" alt="Eric Descalso upon entry to Cascade Behavioral" aria-describedby="eric-entry-caption">
-        </a>
-          <div class="caption" id="eric-entry-caption">Peter Eric Descalso, a diesel mechanic, went into cardiac arrest and died at the Cascade Behavioral Hospital in December 2016, three days after he checked in for alcoholism treatment. This document was part of his admission papers. (Courtesy of the Descalso family)</div>
-        </div>
+        <div class="center">
+            <%= t.include("_prerollVideo.html", { file: "codi_titlecard.mp4", id: "6068745312001", runtime: "3:22" }) %>
+            <div class="caption">Codi Branson reflects on her ex-husband’s last days. “I thought he was more cared-for in that setting, that it was a hospital.” (Erika Schultz, Gabriel Campanario & Lauren Frohne / The Seattle Times)</div>
+          </div>
 
         <div class="constrained">
             <%= t.renderMarkdown(archieml.text2.section17) %>
@@ -212,11 +210,10 @@
             <%= t.renderMarkdown(archieml.text2.section18) %>
           </div>
 
-
-      <div class="center">
-        <%= t.include("_prerollVideo.html", { file: "codi_titlecard.mp4", id: "6068745312001", runtime: "3:22" }) %>
-        <div class="caption">Codi Branson reflects on her ex-husband’s last days. “I thought he was more cared-for in that setting, that it was a hospital.” (Erika Schultz, Gabriel Campanario & Lauren Frohne / The Seattle Times)</div>
-      </div>
+          <div class="photoMedium">
+              <img src="assets/photos/codi.jpg" alt="Photo of Codi Branson" aria-describedby="codi-caption"></a>
+              <div class="captionLeft" id="codi-caption">When her former husband needed treatment for alcoholism, Codi Branson felt confident that Cascade Behavioral Hospital in Tukwila would be a good fit. He died three days after checking in. (Erika Schultz / The Seattle Times)</div>
+            </div>
 
       <div class="constrained">
         <%= t.renderMarkdown(archieml.text2.section19) %>
@@ -328,7 +325,7 @@
         <div class="quote">
           <img src="assets/long-quote.jpg" class="hidden-mobile" style="opacity: 0.5">
           <img src="assets/quote.jpg" class="visible-mobile" style="opacity: 0.5">
-        <h5>“Cascade respectfully refutes as inaccurate any allegation that staff were not properly trained to respond to this unfortunate incident.” - Michael Uradnik, CEO of Cascade’s Behavioral Hospital.</h5>
+        <h5>“Cascade respectfully refutes as inaccurate any allegation that staff were not properly trained to respond to this unfortunate incident.” - Michael Uradnik, CEO of Cascade’s Behavioral Hospital</h5>
       </div>
 
       <div class="constrained">
@@ -342,7 +339,7 @@
       <a name="timeline">
       <div class="floating constrained">
         <div>
-          <a href="https://projects.seattletimes.com/2019/public-crisis-private-toll-timeline/"><h3>Click to read more sidebar</h3><img src="assets/photos/seal.jpg" alt="Timeline or Rosemary Torgesen's last months"></a>
+          <a href="https://www.seattletimes.com/seattle-news/times-watchdog/behind-joint-commissions-gold-seal-of-approval-a-history-of-missed-safety-violations-at-psychiatric-hospitals/" target="_blank"><h3>'Gold seal of approval' — and missed safety violations</h3><img src="assets/photos/seal.jpg" alt="Timeline or Rosemary Torgesen's last months"></a>
         </div>
       </div>
     </a>
@@ -381,7 +378,7 @@
             <div class="image-container">
                 <img src="assets/photos/turner.jpg" alt="Kenneth Turner" aria-describedby="turner-caption">
               </a>
-                <div class="caption" id="turner-caption">Kenneth Turner, 82, fell four times during his stay at Cascade Behavioral Hospital, and head trauma contributed to his death. “If they had been walking with him, or taking care of him like they’re supposed to, how did he fall four times?” said Barbara Turner, his wife of 62 years. (Courtesy of Judy Russo)</div>
+                <div class="caption" id="turner-caption">Kenneth Turner, 82, fell four times at Cascade. “If they had been walking with him, or taking care of him like they’re supposed to, how did he fall four times?” said Barbara Turner, his wife of 62 years. (Courtesy of Judy Russo)</div>
             </div>
             <div class="image-container">
                 <img src="assets/photos/mason.jpg" alt="Jim Mason" aria-describedby="mason-caption">
@@ -461,7 +458,11 @@
     <div class="trouble">
         <p>If you’re having trouble commenting or viewing comments, hit refresh on your browser and try again.</p>
     </div>
-    <%= t.include("partials/_comments.html") %>
+
+    <div class="constrained">
+        <%= t.include("partials/_comments.html") %>
+    </div>
+
     <%= t.include("partials/_navBottom.html") %>
     <% if (json.project.production) { %>
     <%= !json.project.embedded ? t.include("partials/_analytics.html") : "" %>
