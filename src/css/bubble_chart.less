@@ -52,6 +52,7 @@ a, a:visited, a:active {
   font-size: 18px;
   fill: @df-charcoal;
   cursor: default;
+  font-family: @df-sans;
 }
 
 .tooltip {
@@ -104,7 +105,7 @@ a, a:visited, a:active {
   }
   p {
     text-align: left;
-    font-family: @df-serif;
+    font-family: @df-sans;
 
     @media @mobile {
       font-size: 16px;
@@ -164,7 +165,6 @@ a, a:visited, a:active {
 
     @media @mobile {
       font-size: 14px;
-      margin-top: -40px;
     }
   }
 
@@ -176,6 +176,7 @@ a, a:visited, a:active {
 
     @media @mobile {
       font-size: 14px;
+      margin-top: -10px;
     }
   }
 }
@@ -187,4 +188,12 @@ a, a:visited, a:active {
 
 .four {
   width: 80px;
+
+  @media @tablet {
+    width: 70px;
+  }
+
+  @media @mobile {
+    width: 50px;
+  }
 }
