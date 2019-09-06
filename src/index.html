@@ -42,7 +42,8 @@
   
         <div class="floating constrained">
           <div>
-            <a href="http://projects.seattletimes.com/2019/public-crisis-private-toll-prologue"> <h3>Public Crisis, Private Toll:
+            <h6>TIMES WATCHDOG</h6>
+            <a href="http://projects.seattletimes.com/2019/public-crisis-private-toll-prologue"><h3>Public Crisis, Private Toll:
                 <br>Read the full investigation</h3><img src="assets/photos/image6m.jpg" alt="Link to read the overview of mental healthcare in Washington"></a>
           </div>
         </div>
@@ -67,7 +68,7 @@
 
         <div class="floating constrained">
             <div class="resources">
-              <a href="https://www.seattletimes.com/seattle-news/times-watchdog/response-from-cascade-behavioral-ceo-michael-uradnik/"><h3 style="line-height: 1.4">Read the full response from Cascade Behavioral CEO Michael Uradnik</h3></a>
+              <a href="https://www.seattletimes.com/seattle-news/times-watchdog/response-from-cascade-behavioral-ceo-michael-uradnik/" target="blank"> <h3 style="line-height: 1.4">Read the full response from Cascade Behavioral CEO Michael Uradnik</h3></a>
             </div>
           </div>
 
@@ -77,11 +78,11 @@
 
       <hr>
 
-      <div class="hidden-mobile">
+      <div class="hidden-tablet" id="bubble-chart">
         <%= t.include("_bubbleChart.html") %>
       </div>
   
-      <div class="visible-mobile">
+      <div class="visible-tablet">
         <%= t.include("_bubbleChartMobile.html") %>
       </div>
 
@@ -102,8 +103,8 @@
         </div>
 
         <hr>
-
-        <div>
+        
+        <div id="state-inspections">
           <%= t.include("_inspection-map.html") %>
         </div>
 
@@ -191,7 +192,7 @@
           <%= t.renderMarkdown(archieml.text2.section16) %>
         </div>
 
-        <div class="center">
+        <div class="center" id="branson-video">
             <%= t.include("_prerollVideo.html", { file: "codi_titlecard.mp4", id: "6068745312001", runtime: "3:22" }) %>
             <div class="caption">Codi Branson reflects on her ex-husband’s last days. “I thought he was more cared-for in that setting, that it was a hospital.” (Erika Schultz, Gabriel Campanario & Lauren Frohne / The Seattle Times)</div>
           </div>
@@ -242,7 +243,7 @@
 
       <hr>
 
-      <div>
+      <div id="washington-facilities">
         <%= t.include("_facility-map.html") %>
       </div>
           
@@ -336,10 +337,10 @@
         <hr>
       </div>
 
-      <a name="timeline">
       <div class="floating constrained">
         <div>
-          <a href="https://www.seattletimes.com/seattle-news/times-watchdog/behind-joint-commissions-gold-seal-of-approval-a-history-of-missed-safety-violations-at-psychiatric-hospitals/" target="_blank"><h3>'Gold seal of approval' — and missed safety violations</h3><img src="assets/photos/seal.jpg" alt="Timeline or Rosemary Torgesen's last months"></a>
+          <h6>TIMES WATCHDOG</h6>
+          <a href="https://www.seattletimes.com/seattle-news/times-watchdog/behind-joint-commissions-gold-seal-of-approval-a-history-of-missed-safety-violations-at-psychiatric-hospitals/" target="_blank"><h3>Read the story: 'Gold seal of approval' — and missed safety violations</h3><img src="assets/photos/seal.jpg" alt="Timeline or Rosemary Torgesen's last months"></a>
         </div>
       </div>
     </a>

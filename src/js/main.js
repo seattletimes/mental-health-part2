@@ -6,7 +6,6 @@ setTimeout(() => paywall(11086596), 5000);
 require("component-responsive-frame/child");
 require("./bc-preroll");
 require("./bubble");
-// require("./bubbleMobile");
 require("./facility-map");
 require("./inspection-map");
 
@@ -20,3 +19,29 @@ require("./inspection-map");
 //     // Show a "Play" button so that user can start playback.
 //   });
 // };
+
+var mobileAll = document.getElementById("mobile-all");
+var mobileFacility = document.getElementById("mobile-facility");
+var mobileType = document.getElementById("mobile-type");
+var mobileImage = document.getElementById("mobile-image-all");
+
+mobileAll.onclick = function(elem) {
+    mobileAll.classList.add("active");
+    mobileFacility.classList.remove("active");
+    mobileType.classList.remove("active");
+    mobileImage.src = "assets/photos/bubble-chart-mobile-all.jpg";
+}
+
+mobileFacility.onclick = function(elem) {
+    mobileFacility.classList.add("active");
+    mobileAll.classList.remove("active");
+    mobileType.classList.remove("active");
+    mobileImage.src = "assets/photos/bubble-chart-mobile-facility.jpg";
+}
+
+mobileType.onclick = function(elem) {
+    mobileType.classList.add("active");
+    mobileFacility.classList.remove("active");
+    mobileAll.classList.remove("active");
+    mobileImage.src = "assets/photos/bubble-chart-mobile-type.jpg";
+}
