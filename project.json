@@ -13,9 +13,9 @@
   "description": "At private psychiatric hospitals, a hidden safety record, a human cost",
   "author": "Daniel Gilbert",
   "url": "https://projects.seattletimes.com/2019/public-crisis-private-toll-part2/",
-  "image": "assets/social.jpg",
+  "image": "assets/social-image.jpg",
   "sheets": [],
   "standout": false,
   "embedded": false,
-  "production": false
+  "production": true
 }

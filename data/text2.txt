@@ -74,7 +74,7 @@ There is no question that Cascade provides a badly needed service and that its s
 
 Uradnik added Cascade has “never been subjected to any licensure restrictions, fines, admission freezes, patient suspensions or facility closure orders.”
 
-That isn’t unusual in Washington state. The Department of Health hasn’t taken an enforcement action on a psychiatric hospital since [revoking the license](https://www.seattletimes.com/seattle-news/state-closes-tacoma-psychiatric-hospital/) of a facility owned by Pierce County in 2006.
+That isn’t unusual in Washington state. The Department of Health hasn’t taken an enforcement action on a psychiatric hospital since [suspending the license](https://www.seattletimes.com/seattle-news/state-closes-tacoma-psychiatric-hospital/) of a facility owned by Pierce County in 2006.
 
 :end
 quote nate Weed
@@ -241,7 +241,7 @@ In Colorado, hospitals have to report everything from unexplained deaths to thre
 
 When a patient dies suddenly at a hospital in Washington state, there is almost no trace of it.
 
-Descalso’s death surfaced in an inspection report, which described him only as “Patient #9,” after regulators learned of the cardiac arrest and [faulted Cascade](https://www.documentcloud.org/documents/6382594-Cascade-110217-State-Licensure.html) for failing to document how its staff responded. The hospital didn’t report Descalso’s death as an adverse event to the state, and it isn’t clear that it had to.
+Descalso’s death surfaced in an inspection report, which described him only as “Patient #9,” after regulators learned of the cardiac arrest and faulted Cascade for failing to document how its staff responded. The hospital didn’t report Descalso’s death as an adverse event to the state, and it isn’t clear that it had to.
 
 Hospitals have to report adverse events — including when a patient falls, gets assaulted or dies — but [only in certain circumstances](https://www.doh.wa.gov/Portals/1/Documents/Pubs/689003.pdf). They don’t have to report a death unless it was caused by specific types of mistakes, such as a device malfunction or medication error. They don’t have to report assaults, suicide attempts and escapes unless they result in death or “[serious injury](https://www.doh.wa.gov/Portals/1/Documents/2900/NQF2011Update.pdf),” defined as loss of limb, bodily function or harm that requires surgery. There are no penalties for failing to report.
 
@@ -257,11 +257,11 @@ Even if hospitals reported every event as required, this tally would leave out m
 
 :end
 
-• At Navos, a nonprofit hospital in West Seattle for patients who have been involuntarily committed, at least 17 patients escaped over three years. One patient who escaped was found unresponsive, with a blood-alcohol concentration of 0.57 — a level that can be fatal — and was taken to Harborview Medical Center where he survived, [records show](https://www.documentcloud.org/documents/6382493-Navos-Escape-August-2016.html#document/p1/a522958).
+• At Navos, a nonprofit hospital in West Seattle for patients who have been involuntarily committed, at least 17 patients escaped over three years. One patient who escaped was found unresponsive, with a blood-alcohol concentration of 0.57 — a level that can be fatal — and was taken to Harborview Medical Center where he survived, <a href="https://www.documentcloud.org/documents/6382493-Navos-Escape-August-2016.html#document/p1/a522958">records show</a>.
 
 • At BHC Fairfax Hospital in Kirkland, there were at least 14 escapes and 133 assaults over three years. Last August, there were two escapes, one apparent suicide attempt and four incidents in which a hospital staffer was assaulted or hurt trying to restrain a patient.
 
-• At BHC Fairfax’s Everett facility, which hasn’t reported any adverse events, one patient seized another patient by the back of the head and “punched him in the face repeatedly with the other hand.” A [police officer wrote](https://www.documentcloud.org/documents/6145765-Fairfax-Everett-102218-Assault.html) of the October 2018 incident, “Staff at the facility stated they did not have adequate resources at the facility to prevent any further incidents of violence.”
+• At BHC Fairfax’s Everett facility, which hasn’t reported any adverse events, one patient seized another patient by the back of the head and “punched him in the face repeatedly with the other hand.” A <a href="https://www.documentcloud.org/documents/6145765-Fairfax-Everett-102218-Assault.html">police officer wrote</a> of the October 2018 incident, “Staff at the facility stated they did not have adequate resources at the facility to prevent any further incidents of violence.”
 
 • At Smokey Point Behavioral Hospital, which opened in June 2017, The Times was able to identify 28 unreported assaults through law enforcement and regulatory records. But that represents only a slice of the violence occurring inside the hospital. Its own incident log recorded 88 assaults in 2018 alone, according to a state [inspection report](https://www.documentcloud.org/documents/6382507-Smokey-Point-011719-CMS-Complaint.html#document/p26/a522960), which didn’t provide details of the incidents.
 
@@ -374,7 +374,7 @@ State regulators reviewed these assaults, which weren’t reported as adverse ev
 
 On Aug. 29, 2017, two days before the deadline, inspectors returned to Cascade and declared the hospital had “substantially corrected” the most serious problems. CMS withdrew its enforcement action.
 
-The Department of Health had gone as far as preparing a “[notice of intent](https://www.documentcloud.org/documents/6382593-2017-5188FS-Part-2-Pdf-R.html)” to modify Cascade’s license, described in a handwritten notation as “no new admits until can demonstrate compliance,” [records show](https://www.documentcloud.org/documents/6383396-Cascade-Sanctions-Worksheet-2017-5118.html_). After CMS found Cascade in compliance, the department dropped its investigation.
+The Department of Health had gone as far as preparing a “[notice of intent](https://www.documentcloud.org/documents/6382593-2017-5188FS-Part-2-Pdf-R.html)” to modify Cascade’s license, described in a handwritten notation as “no new admits until can demonstrate compliance,” [records show](https://www.documentcloud.org/documents/6383396-Cascade-Sanctions-Worksheet-2017-5118.html). After CMS found Cascade in compliance, the department dropped its investigation.
 
 :end
 ad
@@ -395,7 +395,7 @@ At about 3 a.m. on June 3, 2017, a 76-year-old former teacher, Carolyn Tomich, e
 
 With difficulty, Tracee Tomich loaded her mother into her truck and took her to a hospital. To her shock, her mother was diagnosed with a broken hip. When Carolyn Tomich died three weeks later, the medical examiner ruled it an accident with the broken hip listed as [a contributing factor](https://www.documentcloud.org/documents/6383398-Death-certificate-062717.html).
 
-That November, state inspectors faulted Cascade for inadequately monitoring patients at high risk of falling.
+That November, state inspectors [faulted Cascade](https://www.documentcloud.org/documents/6382594-Cascade-110217-State-Licensure.html) for inadequately monitoring patients at high risk of falling.
 
 Less than two weeks later, an 82-year-old Cascade patient named Kenneth Turner fell at night. It was the fourth time that Turner, a retired commercial painter, had fallen during his time at Cascade, family members said they were told by the hospital. He died 10 days later. The manner of death was undetermined, according to his [death certificate](https://www.documentcloud.org/documents/6383400-Death-certificate-112517.html), but a contributing factor was “blunt force head trauma.” The document lists Cascade’s address as the location of the injury.
 
