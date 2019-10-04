@@ -12,6 +12,8 @@ section1:
 
 On Dec. 20, 2016, health inspectors hand-delivered a notice to the chief executive of Cascade Behavioral Hospital, warning that conditions “posed an immediate and serious threat to patient safety.”
 
+:end
+section2:
 The next day, a patient in the throes of severe alcohol withdrawal was left to sleep unattended, went into cardiac arrest and died.
 
 Regulators made no connection between the two events, which came after a period of rapid expansion by the psychiatric hospital, but Cascade’s troubles were only beginning. Over the next 19 months, government inspectors found more violations at Cascade that put patients at risk, and at least six others died — by suicide, in medical emergencies or after an injury that caused or contributed to their deaths.
@@ -22,15 +24,17 @@ It is also a largely secret toll. Patients and staffers at Washington state�
 
 :end
 watchdog
-section2:
+section3:
 
 The full scope of safety incidents at the private facilities is essentially invisible even to the officials who regulate them.
 
+:end
+section4:
 When a patient or staff member suffers serious, largely preventable harm, hospitals are supposed to report it to the state as an “adverse event.” The self-reported events, however, leave out dozens of incidents ranging from broken bones to sudden deaths, according to a database The Times built by obtaining workers’ compensation data, emergency dispatcher notes and more than 1,000 pages of police, regulatory and court records.
 
 :end
 prologue
-section3:
+section5:
 
 In the past three years, the six private psychiatric hospitals in Western Washington that have been open at least a year reported a combined 15 adverse events to the state. The Times found 350 incidents in which patients or staff were assaulted, suffered an injury, attempted suicide, escaped or died suddenly at these hospitals over the same time — an average of more than twice a week.
 
@@ -42,17 +46,20 @@ Jim Vollendroff, who was King County’s top mental-health official before leavi
 
 :end
 quote 
-section4:
+section6:
 
 Vollendroff also wasn’t informed when state or federal officials found violations at King County hospitals, he said, adding he believes the reports should be public.
 
 “If I had a family member I was going to be sending to any one of those programs, I would want to know what their violation history has been,” said Vollendroff, now director of the new Behavioral Health Institute at Harborview Medical Center. Speaking for himself and not the hospital, he said, “It helps drive good quality if hospitals understand people have access to this.”
 
+:end
+section7:
+
 Michael Uradnik, Cascade’s chief executive, declined to be interviewed but said in written responses that serious cases of harm are rare and that Cascade strictly follows the law in reporting them to the state.
 
 :end
 INSET: STATEMENT FROM URADNIK
-section5:
+section8:
 
 “Many of our patients come to our facility experiencing some of the most profoundly challenging behavioral and medical health challenges of their lives, including being turned away or transferred from other hospitals that are unwilling or unable to provide the highly intensive, specialized services offered at Cascade,” Uradnik wrote.
 
@@ -62,7 +69,7 @@ It is relatively rare for patients to die or suffer fatal injuries at a psychiat
 
 :end
 GRAPHIC: BUBBLE CHART
-section6:
+section9:
 
 It isn’t clear if all of the deaths of Cascade patients could have been prevented. Many families interviewed by The Times expressed anguish over the care their loved ones received at Cascade, but not all. Don Kay, whose wife, Marilyn, died suddenly at Cascade last year, was happy with the hospital’s service.
 
@@ -74,21 +81,27 @@ There is no question that Cascade provides a badly needed service and that its s
 
 Uradnik added Cascade has “never been subjected to any licensure restrictions, fines, admission freezes, patient suspensions or facility closure orders.”
 
+:end
+section10:
+
 That isn’t unusual in Washington state. The Department of Health hasn’t taken an enforcement action on a psychiatric hospital since [suspending the license](https://www.seattletimes.com/seattle-news/state-closes-tacoma-psychiatric-hospital/) of a facility owned by Pierce County in 2006.
 
 :end
 quote nate Weed
-section7:
+section11:
 
 “Our role in this structure is to really work with the facility to help them be successful in doing their job better,” Nate Weed, head of the Department of Health’s Office of Community Health Systems, said in an interview. The lack of enforcement action “is not because we don’t think that’s a tool available to us, but there’s a process that happens after you do that, too, within the legal world,” he said. “What we’re really trying to balance, often, is how do we get that facility to behave better right now.”
 
 In a demonstration of the department’s enforcement philosophy, agency officials earlier this year met at the state Attorney General’s office in Olympia with senior executives of US HealthVest, which operates Smokey Point Behavioral Hospital, records show. The regulator had found violations at the Snohomish County facility on 12 separate visits over 15 months, including failures that put patient lives in danger. Instead of restricting Smokey Point’s operations, the officials [reached an agreement](https://www.documentcloud.org/documents/6281617-SPBH-Corrective-Action-Plan.html) that required the hospital to submit to stepped-up monitoring.
 
+:end
+section12:
+
 The hospital’s failures that gave rise to this deal are nowhere to be found online and are only available through a public-records request to the Department of Health or its federal counterpart. While health regulators in at least 18 states, from West Virginia to Wyoming, post inspection violations publicly, Washington state doesn’t.
 
 :end
 CHART: U.S. MAP
-section8:
+section13:
 
 In response to questions from The Times, the Department of Health says that it “intends to develop the capacity” to post inspection reports online, enabled by new funding, but does not have a firm date to do so.
 
@@ -97,7 +110,7 @@ The Centers for Medicare and Medicaid, a federal agency, has made thousands of i
 When Eric Descalso started looking for help and settled on Cascade Behavioral, there was no record online of the repeated violations identified by state inspectors. He had no reason to expect anything other than the “world-class treatment” the company promised on its website.
 
 :end
-section9:
+section14:
 # A gem of a hospital
 
 An Army veteran who maintained diesel trucks for a living, Descalso, 49, loved telling jokes but struggled to get to the punchline without cracking up. His laugh, beginning as a grunt that he tried to suppress, shook his barrel-chested frame until he couldn’t speak. But as he sank into depression in the fall of 2016, the drinking that anchored his social life became a problem.
@@ -106,7 +119,7 @@ One morning he woke before dawn and stared at the clock, watching the minutes go
 
 :end
 DESCALSO AND LITTLE DAUGHTER
-section10:
+section15:
 
 Codi Branson, his ex-wife with whom he remained close, and Carol Descalso, his mother, both worked in health care and encouraged him to get treatment. When Branson learned he was going to Cascade Behavioral, she felt reassured. The facility used to be known as Riverton Hospital, where Branson’s oldest daughter from another marriage was born.
 
@@ -116,13 +129,13 @@ The hospital had undergone some big changes. It treated only patients with menta
 
 :end
 quote
-section11:
+section16:
 
 The acquisition “is absolutely going to be a gem for us,” Acadia’s president told financial analysts the following spring. “Because of the way we were able to extract it from a not-for-profit,” he continued, Acadia had acquired it at a “very attractive valuation,” according to an event transcript produced by S&P Global Market Intelligence.
 
 :end
 watchdog
-section12:
+section17:
 
 Acadia’s acquisition was part of a broader transformation in how patients in Washington state receive care for serious mental health and substance-use disorders. In 2018, private psychiatric hospitals treated 35% of people admitted to a hospital with such conditions in Washington state, up from 17% in 2012, according to a Times analysis of hospital-discharge data.
 
@@ -134,7 +147,7 @@ In June of 2016, a police officer arrived at the hospital to investigate an assa
 
 :end
 PHOTO OF HOSPITAL
-section13:
+section18:
 
 The next month, a registered nurse reported he had been assaulted by a patient and suffered a dislocated shoulder. He was calling from home, he said, because a supervisor “did not want the [police called](https://www.documentcloud.org/documents/6143908-Cascade-071516-Assault.html).”
 
@@ -146,7 +159,7 @@ Police officers were responding to Cascade Behavioral so often that in October o
 
 :end
 quote Police officers were responding to Cascade Behavioral so often that in October of 2016, Tukwila’s police chief designated it a “[chronic nuisance property](https://www.documentcloud.org/documents/6269392-Signed-Violation-Notice-Cascade-Behavioral-LLC.html).”
-section14:
+section19:
 
 The Times identified 65 assaults from 2016 to 2018 where a Cascade Behavioral patient or staff member was injured, including several where the victim was knocked unconscious, or suffered a concussion or a broken bone. The Department of Health requires hospitals to report assaults that result in “serious injuries.” Cascade hasn’t reported a single physical assault as an adverse event in its history.
 
@@ -156,7 +169,7 @@ The chief executive contended the nuisance designation was inappropriate but ad
 
 :end
 watchdog
-section15:
+section20:
 
 On Dec. 12, 2016, five inspectors from the Department of Health arrived at Cascade Behavioral to investigate complaints. One inspector noticed that a patient received emergency medical care and follow-up specialty appointments after being assaulted. When asked by an inspector why the hospital neglected to report this to the state, a manager claimed to be unaware that the incident should have been reported, [records show](https://www.documentcloud.org/documents/6382458-Cascade-122116-CMS-Complaint.html#document/p24/a522938).
 
@@ -167,14 +180,14 @@ Emergency carts were stocked with [expired medical supplies](https://www.documen
 The pharmacy director [told inspectors](https://www.documentcloud.org/documents/6382458-Cascade-122116-CMS-Complaint.html#document/p35/a522945), “I don’t have enough pharmacy staff to do what we should.”
 
 :end
-section16:
+section21:
 # “Something is going on in the hospital”
 
 Eric Descalso was in bad shape when he checked in Dec. 19, 2016, with a blood-alcohol level of 0.28 at intake. But he walked steadily and was calm and cooperative as he answered the staff’s questions.
 
 :end
 “I’ve got grandkids now and I’d like to see them grow up,” he told hospital staff. “I’m here to quit and get healthy.”
-section17:
+section22:
 
 “I’ve got grandkids now and I’d like to see them grow up,” he told hospital staff. “I’m here to quit and get healthy.”
 
@@ -186,7 +199,7 @@ It was the most serious finding the regulator could cite, setting in motion a pr
 
 :end
 resources
-section18:
+section23:
 
 That day, Dec. 21, was Descalso’s third at the hospital. He was delirious from withdrawal. His blood pressure spiked to 187 over 111, just shy of what the American Heart Association defines as a hypertensive crisis, which can cause a stroke, heart attack or organ failure.
 
@@ -196,6 +209,9 @@ Descalso’s 20-year-old daughter, Danielle, was trying to call him but couldn�
 
 Danielle called her mother, Codi Branson, at work. Branson, a nurse, called the hospital to check on her ex-husband. She was put on hold.
 
+:end
+section24:
+
 Cascade Behavioral kept a record of Descalso’s condition and whereabouts every 15 minutes, initialed by a staff member. According to this record, Descalso was lying or sitting in bed in an agitated state during checks at noon, 12:15, 12:30 and again at 12:45 p.m.
 
 But according to his discharge summary, Descalso was already unresponsive by 12:45, his skin bluish from lack of oxygen.
@@ -204,13 +220,13 @@ As Codi Branson waited on hold, a doctor came on the line. He had some really ba
 
 :end
 BRANSON PHOTO OR VIDEO
-section19:
+section25:
 
 Branson made her way home in a daze. She remembers finding Danielle in her bedroom and telling her that her father would not be coming home. Danielle ran out of the room and collapsed in the hallway, sobbing.
 
 :end
 INSET: DESCALSO AND TEEN DAUGHTER
-section20:
+section26:
 
 When inspectors reviewed the case months later, they cited Cascade for [failing to document how staff responded](https://www.documentcloud.org/documents/6382485-Cascade-031017-CMS-Complaint.html#document/p15/a522950) to the cardiac arrest. It was a minor violation on the regulatory scale, but it was also a failure that left the hospital “unable to evaluate the effectiveness of emergency response,” inspectors wrote.
 
@@ -226,7 +242,7 @@ For Descalso’s ex-wife and mother, their sense of loss has been compounded by 
 
 :end
 “Maybe I should have checked into it more,” said Codi Branson, Eric Descalso's ex-wife. “It’s, like, what did I miss?” QUOTE
-section21:
+section27:
 
 # Adverse events
 
@@ -235,7 +251,7 @@ If Descalso had died at a hospital in Pennsylvania, the facility likely would ha
 :end
 In Colorado, hospitals have to report everything from unexplained deaths to threats of physical harm, which regulators must investigate and “disseminate … to the public in a form that will assist people in making informed choices among health care facilities,” according to state law.
 
-section22:
+section28:
 
 In Colorado, hospitals have to report everything from unexplained deaths to threats of physical harm, which regulators must investigate and “disseminate … to the public in a form that will assist people in making informed choices among health care facilities,” according to state law.
 
@@ -247,7 +263,7 @@ Hospitals have to report adverse events — including when a patient falls, gets
 
 :end
 map inspections
-section23:
+section29:
 
 “The adverse events program aims to facilitate quality improvement in the health care system, improve patient safety and decrease medical errors in a non-punitive manner,” the Department of Health said in a statement.
 
@@ -265,7 +281,7 @@ Even if hospitals reported every event as required, this tally would leave out m
 
 • At Smokey Point Behavioral Hospital, which opened in June 2017, The Times was able to identify 28 unreported assaults through law enforcement and regulatory records. But that represents only a slice of the violence occurring inside the hospital. Its own incident log recorded 88 assaults in 2018 alone, according to a state [inspection report](https://www.documentcloud.org/documents/6382507-Smokey-Point-011719-CMS-Complaint.html#document/p26/a522960), which didn’t provide details of the incidents.
 
-section24:
+section30:
 
 Navos was acquired by Multicare Health System in 2017. After reviewing documents of two incidents provided by The Times — the escaped patient who was found unresponsive, and a nurse whose hip was broken in an assault — a Multicare spokeswoman said, “We agree that these events should have been reported to the Department of Health and we will be filing those reports.” The incidents predated the company’s acquisition.
 
@@ -275,7 +291,7 @@ Fairfax Behavioral Health, owned by hospital chain Universal Health Services, sa
 
 :end
 surveillance videos
-section25:
+section31:
 
 While some staffers in psychiatric hospitals felt there was an unwritten rule not to contact law enforcement, there was an explicit policy at Smokey Point, operated by a for-profit company in New York called US HealthVest.
 
@@ -284,7 +300,7 @@ While some staffers in psychiatric hospitals felt there was an unwritten rule no
 Beall declined to comment and Crockett didn’t respond to requests. US HealthVest’s chief executive, Richard Kresch, didn’t respond to a question about this policy but said in a statement that “Smokey Point has been and continues to be, fully compliant with all state and federal regulations.”
 
 :end
-section26:
+section32:
 
 # A cycle of violations
 
@@ -302,7 +318,7 @@ With Cascade’s status in limbo, on April 5, 2017, the hospital admitted a deep
 
 :end
 INSET PHOTO: HOWELL
-section27:
+section33:
 
 Howell, 66, owned a service station in Arlington, lived on a farm and fixed up classic cars as a hobby. After a shoulder injury, though, he had spiraled into a suicidal depression.
 
@@ -316,7 +332,7 @@ On April 19, he reminisced about working on the farm and told a therapist, “I 
 
 :end
 That night, hospital staff made a note of Howell’s status every 15 minutes, as they had since his arrival. The record shows he was in bed all morning until 5:30 a.m., which is then crossed out with a large “X.”
-section28:
+section34:
 
 That night, hospital staff made a note of Howell’s status every 15 minutes, as they had since his arrival. The record shows he was in bed all morning until 5:30 a.m., which is then crossed out with a large “X.” Howell was not in bed at that time. In a note timed 4:45 a.m., a nurse wrote that a staffer had found him hanging from his bathroom door, with no pulse.
 
@@ -336,7 +352,7 @@ Uradnik, Cascade’s CEO, told The Times it was the only suicide in the hospital
 
 :end
 quote
-section29:
+section35:
 
 “Cascade respectfully refutes as inaccurate any allegation that staff were not properly trained to respond to this unfortunate incident,” he wrote.
 
@@ -350,7 +366,7 @@ Uradnik said the violations cited by CMS were resolved two years ago. He added t
 
 :end
 sidebar
-section30:
+section36:
 
 Like most psychiatric hospitals that receive Medicare reimbursement, Cascade is accredited by The Joint Commission, [exempting it from routine government inspections](https://www.cms.gov/Medicare/Provider-Enrollment-and-Certification/SurveyCertificationGenInfo/Downloads/applicationrequirements.pdf). The commission [posts its accreditation](https://www.qualitycheck.org) decisions online but its inspection reports are confidential. A CMS [website](https://qcor.cms.gov/main.jsp) lists four inspections of Cascade since 2014, of which two found violations and two didn’t, not including the immediate jeopardy findings in March and May of 2017. Washington state’s Department of Health has identified violations at Cascade in each annual inspection since 2014, as it has for every private psychiatric hospital in the state.
 
@@ -359,14 +375,14 @@ On the day inspectors declared immediate jeopardy for the third time, an agency 
 The regulatory scrutiny was intended to force improvements at Cascade, but it didn’t protect patients from harm.
 
 :end
-section31:
+section37:
 # “I’m going to die here&rdquo;
 
 On June 22, 2017, the hospital readmitted a patient so violent he had been placed on a “do not admit list” after his last stay. “Patient #1,” as he is described in an [inspection report](https://www.documentcloud.org/documents/6382592-Cascade-072117-CMS-Complaint.html), sent another patient to an emergency room with a broken nose and wounds to his face and lip. He knocked another patient unconscious in an attack that drew a “significant amount of blood” and also required emergency medical care for the victim.
 
 :end
 Tukwila police and fire responded to a reported assault at Cascade Behavioral but, upon arrival, “a nurse came out and said there was no assault and sent them on their way,”
-section32:
+section38:
 
 Around this time, Tukwila police and fire responded to a reported assault at Cascade Behavioral but, upon arrival, “a nurse came out and said there was no assault and sent them on their way,” according to state records. A police officer entered anyway and found a visibly injured patient, claiming to have been assaulted.
 
@@ -378,13 +394,13 @@ The Department of Health had gone as far as preparing a “[notice of intent](ht
 
 :end
 ad
-section33:
+section39:
 
 But a disturbing pattern continued: Over 13 months, from April 2017 through May 2018, Cascade reported eight patient falls to the state that resulted in death or serious injury. The hospital itself flagged patient fall rates as an “outlier” in quality data, [state records show](https://www.documentcloud.org/documents/6382594-Cascade-110217-State-Licensure.html#document/p6/a523000).
 
 :end
 triple photo
-section34:
+section40:
 
 In one case identified by inspectors, an 85-year-old dementia patient fell when staff wasn’t watching. And her chart, which initially said she had been sleeping at the time of her fall, was [later altered](https://www.documentcloud.org/documents/6382594-Cascade-110217-State-Licensure.html#document/p5/a522999) to acknowledge that she wasn’t.
 
@@ -401,7 +417,7 @@ Less than two weeks later, an 82-year-old Cascade patient named Kenneth Turner f
 
 :end
 INSET PHOTO: MASON
-section35:
+section41:
 
 “If they had been walking with him, or taking care of him like they’re supposed to, how did he fall four times?” said Barbara Turner, his wife of 62 years.
 
@@ -417,7 +433,7 @@ Don Kay, her husband, said hospital staff told him she suffered a heart attack. 
 
 :end
 “They were the most attentive, caring, compassionate people. She was more at peace, more happy there than anytime in the last 15 years.” - Don Kay, husband of Marilyn Ham-Kay
-section36:
+section42:
 
 That same month, a 52-year-old mental-health counselor arrived at Cascade Behavioral as a patient, law-enforcement and state records show. The woman was diagnosed with psychosis, in addition to serious medical conditions including obesity, diabetes and high blood pressure. On the evening of July 16, a nurse found her lying on her bed, unresponsive. She died of a blood clot, according to state death records.
 
