@@ -27,7 +27,7 @@
     "grunt-contrib-connect": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
     "icanhaz": "^0.10.3",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "leaflet": "^1.5.1",
     "leaflet-map": "^0.2.1",
     "less": "^2.6.1",
