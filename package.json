@@ -20,7 +20,7 @@
     "component-leaflet-map": "0.0.17",
     "component-responsive-frame": "^1.4.1",
     "csv": "^0.4.2",
-    "dot": "^1.1.2",
+    "dot": "^1.1.3",
     "exorcist": "^0.4.0",
     "google-spreadsheets": "^0.5.1",
     "grunt": "^1.0.0",
